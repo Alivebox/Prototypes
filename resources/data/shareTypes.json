@@ -1,0 +1,16 @@
+{
+    "data":[
+        {
+            "id": "1",
+            "name":"Not Shared"
+        },
+        {
+            "id": "2",
+            "name":"Shared (Unrestricted)"
+        },
+        {
+            "id": "3",
+            "name":"Shared (Restricted)"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "data":[
+    {
+        "id": "1",
+        "groupName": "Group 1",
+        "shareType":"Not Shared",
+        "systemDefinition": "SD AB1",
+        "createdBy": "AdminCreator",
+        "lastUpdated": "Oct 23 2012 3:32PM"
+    },
+    {
+        "id": "2",
+        "groupName": "Group 2",
+        "shareType":"Not Shared",
+        "systemDefinition": "Group B1",
+        "createdBy": "AdminCreator",
+        "lastUpdated": "Oct 23 2012 3:32PM"
+    },
+    {
+        "id": "3",
+        "groupName": "Group 3",
+        "shareType":"Not Shared",
+        "systemDefinition": "Group B3",
+        "createdBy": "AdminCreator",
+        "lastUpdated": "Oct 23 2012 3:32PM"
+    },
+    {
+        "id": "4",
+        "groupName": "Group 4",
+        "shareType":"Not Shared",
+        "systemDefinition": "SD1",
+        "createdBy": "Developer",
+        "lastUpdated": "Oct 23 2012 3:32PM"
+    },
+    {
+        "id": "5",
+        "groupName": "Group 5",
+        "shareType":"Not Shared",
+        "systemDefinition": "DS3",
+        "createdBy": "Developer",
+        "lastUpdated": "Oct 23 2012 3:32PM"
+    },
+    {
+        "id": "6",
+        "groupName": "Group 6",
+        "shareType":"Not Shared",
+        "systemDefinition": "Group A1",
+        "createdBy": "Guest",
+        "lastUpdated": "Oct 23 2012 3:32PM"
+    },
+    {
+        "id": "7",
+        "groupName": "Group 7",
+        "shareType":"Not Shared",
+        "systemDefinition": "DB2",
+        "createdBy": "Guest",
+        "lastUpdated": "Oct 23 2012 3:32PM"
+    },
+    {
+        "id": "8",
+        "groupName": "Group 8",
+        "shareType":"Not Shared",
+        "systemDefinition": "BS3",
+        "createdBy": "Guest",
+        "lastUpdated": "Oct 23 2012 3:32PM"
+    }
+]
+}

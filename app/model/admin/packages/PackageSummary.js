@@ -1,0 +1,62 @@
+Ext.define('Prototypes.model.admin.packages.PackageSummary', {
+
+    extend:'Ext.data.Model',
+
+    idProperty:'id',
+
+    fields:[
+        {
+            name:'id',
+            type:'int'
+        },
+        {
+            name:'packageName',
+            type:'string'
+        },
+        {
+            name:'packageCode',
+            type:'string'
+        },
+        {
+            name:'isTemplate',
+            type:'boolean'
+        },
+        {
+            name:'tradeVendor',
+            type:'string'
+        },
+        {
+            name:'oderClass',
+            type:'string'
+        },
+        {
+            name:'packageType',
+            type:'string'
+        },
+        {
+            name:'systemDivision',
+            type:'string'
+        },
+        {
+            name:'division',
+            type:'string'
+        },
+        {
+            name:'department',
+            type:'string'
+        },
+        {
+            name:'description',
+            type:'string'
+        },
+        {
+            name:'isAssingToNewProjects',
+            type:'boolean'
+        },
+        {
+            name:'keywords',
+            type:'string'
+        }
+    ]
+
+});
