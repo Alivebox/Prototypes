@@ -1,0 +1,54 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "serviceCategory":"Accounting",
+            "categoryCode": "55667"
+        },
+        {
+            "id": 2,
+            "serviceCategory":"Catering",
+            "categoryCode": "55668"
+        },
+        {
+            "id": 3,
+            "serviceCategory":"Communication",
+            "categoryCode": ""
+        },
+        {
+            "id": 4,
+            "serviceCategory":"Parking",
+            "categoryCode": ""
+        },
+        {
+            "id": 5,
+            "serviceCategory":"Rentals - Production",
+            "categoryCode": ""
+        },
+        {
+            "id": 6,
+            "serviceCategory":"Rentals - Technical",
+            "categoryCode": ""
+        },
+        {
+            "id": 7,
+            "serviceCategory":"Safety",
+            "categoryCode": ""
+        },
+        {
+            "id": 8,
+            "serviceCategory":"Shipping",
+            "categoryCode": ""
+        },
+        {
+            "id": 9,
+            "serviceCategory":"Test",
+            "categoryCode": ""
+        },
+        {
+            "id": 10,
+            "serviceCategory":"Travel",
+            "categoryCode": ""
+        }
+    ]
+}
