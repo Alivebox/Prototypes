@@ -5,4 +5,4 @@
  * to load properly for image slicing (required to support non-CSS3 browsers
  * such as IE9 and below).
  */
-@import '../../build/Prototypes/production/resources/Prototypes-example.css';
+@import '../../build/Prototypes/testing/resources/Prototypes-example.css';
