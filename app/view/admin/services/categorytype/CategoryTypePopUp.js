@@ -49,7 +49,6 @@ Ext.define('Prototypes.view.admin.services.categorytype.CategoryTypePopUp', {
     },
 
     onSubmitPopUp: function(){
-        debugger;
         // this.fireEvent('submitPositionPopUp', this);
     }
 });

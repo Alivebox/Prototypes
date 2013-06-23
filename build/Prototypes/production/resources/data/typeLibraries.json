@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "id": "1",
+            "name":"Asset Documents"
+        },
+        {
+            "id": "2",
+            "name":"Customers Documents"
+        },
+        {
+            "id": "3",
+            "name":"DWF Drawings"
+        },
+        {
+            "id": "4",
+            "name":"Events Documents"
+        },
+        {
+            "id": "5",
+            "name":"Forms"
+        }
+    ]
+}

@@ -1,0 +1,170 @@
+{
+
+    "localizationManagement": {
+        "enabled": false
+    },
+
+    "errorsManagement": {
+        "enabled": false
+    },
+
+    "viewsManagement": {
+        "enabled": true,
+        "viewsContainerPackage": "Mercury.ux.view.TreeViewsContainer",
+        "views": [
+
+            {
+                "name": "admin",
+                "label": "Admin",
+                "children": [
+                    {
+                        "name": "adminPackages",
+                        "label": "Packages",
+                        "package": "Prototypes.view.admin.packages.Packages"
+                    },
+                    {
+                        "name": "adminServices",
+                        "label": "Services",
+                        "package": "Prototypes.view.admin.services.Services"
+                    }
+                ]
+            },
+
+            {
+                "name": "layouttest",
+                "label": "Layou Tests",
+                "children": [
+                    {
+                        "name": "columnTest",
+                        "label": "Column test",
+                        "package": "Prototypes.view.layouttest.LayoutTest",
+                        "default": true
+                    }
+                ]
+            },
+
+            {
+                "name": "order",
+                "label": "Order",
+                "children": [
+                    {
+                        "name": "admin",
+                        "label": "Admin",
+                        "children": [
+                            {
+                                "name": "elementGroups",
+                                "label": "Element Groups",
+                                "package": "Prototypes.view.order.admin.MainOrderAdminElementGroupsContainer"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "orderSummary",
+                        "label": "Order Summary",
+                        "package": "Prototypes.view.order.summary.OrderSummaryContainer"
+                    }
+                ]
+            },
+
+            {
+                "name": "project",
+                "label": "Project",
+                "children": [
+                    {
+                        "name": "projectsummary",
+                        "label": "Project Summary",
+                        "package": "Prototypes.view.project.ProjectSummary"
+                    },
+                    {
+                        "name": "customervendor",
+                        "label": "Customers",
+                        "package": "Prototypes.view.project.customerproject.VendorTradesContainer"
+                    }
+                ]
+            },
+
+            {
+                "name": "report",
+                "label": "Report",
+                "children": [
+                    {
+                        "name": "reportLibrary",
+                        "label": "Report Library",
+                        "package": "Prototypes.view.report.reportLibrary.MainReportLibraryContainer"
+                    },
+                    {
+                        "name": "documentLibrary",
+                        "label": "Document Library",
+                        "package": "Prototypes.view.report.documentLibrary.MainDocumentLibraryContainer"
+
+                    }
+                ]
+            },
+
+            {
+                "name": "resource",
+                "label": "Resources",
+                "children": [
+                    {
+                        "name": "resourcePositions",
+                        "label": "Positions",
+                        "package": "Prototypes.view.resources.MainResourcePositionContainer"
+                    }
+                ]
+            },
+
+            {
+                "name": "selfservice",
+                "label": "Self Service",
+                "children": [
+                    {
+                        "name": "importwizard",
+                        "label": "Import Wizard",
+                        "package": "Prototypes.view.selfservice.importwizard.ImportWizardCardContainer"
+                    }
+                ]
+            },
+
+            {
+                "name": "timeaway",
+                "label": "Time Away",
+                "children": [
+                    {
+                        "name": "menutimeaway",
+                        "label": "Time Away Request Center",
+                        "package": "Prototypes.view.timeaway.MainTimeAwayContainer"
+                    },
+                    {
+                        "name": "menutimeawaymanager",
+                        "label": "Time Away Request Manager",
+                        "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
+                    }
+                ]
+            },
+
+            {
+                "name": "vendorsTrade",
+                "label": "Vendors/Trades and Customers",
+                "children": [
+                    {
+                        "name": "vendorstradescustomers",
+                        "label": "Vendors/Trades and Customers",
+                        "package": "Prototypes.view.vendorscustomers.MainVendorCustomerContainer"
+                    },
+                    {
+                        "name": "summarycustomers",
+                        "label": "Summary",
+                        "package": "Prototypes.view.vendorscustomers.MainSummaryContainer"
+                    },
+                    {
+                        "name": "gridgrid",
+                        "label": "Grid",
+                        "package": "Prototypes.view.vendorscustomers.GridAdditionalAddresses"
+                    }
+                ]
+            }
+
+        ]
+    }
+
+}

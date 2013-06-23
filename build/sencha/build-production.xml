@@ -1,0 +1,71 @@
+<project name="lodashextBuild" default="main" >
+
+    <macrodef name="sencha">
+        <sequential>
+            <echo message="Running sencha build production"/>
+            <exec executable="sencha.exe" searchPath="true" dir="../../" >
+                <arg value="app"/>
+                <arg value="build"/>
+                <arg value="production"/>
+            </exec>
+        </sequential>
+    </macrodef>
+
+    <property name="buildOutput" value="../Prototypes/production" />
+    <property name="buildOutputResources" value="../Prototypes/production/resources" />
+
+    <property name="unnecessarySassCacheDir" value="../Prototypes/production/.sass-cache" />
+    <property name="unnecessaryResourcesDir" value="../Prototypes/production/resources/resources" />
+    <property name="unnecessaryStylesheetsDir" value="../Prototypes/production/resources/stylesheets" />
+
+    <property name="unnecessaryExampleCssFile" value="Prototypes-example.css" />
+    <property name="unnecessaryReadmeFile" value="Readme.md" />
+
+    <property name="unnecessaryConfigRbFile" value="config.rb" />
+    <property name="unnecessaryPrototypesSassFile" value="Prototypes-all.scss" />
+    <property name="unnecessaryPrototypesExampleSassFile" value="Prototypes-example.scss" />
+    <property name="unnecessaryThemeCaptureJsonFile" value="theme-capture.json" />
+    <property name="unnecessaryThemeCapturePngFile" value="theme-capture.png" />
+
+    <target name="build" depends="" >
+
+        <sencha />
+
+    </target>
+
+    <target name="cleanOutputFolders" >
+        <delete includeemptydirs="true" failonerror="false" >
+            <fileset dir="${buildOutput}" includes="**/*" />
+        </delete>
+    </target>
+
+    <target name="removeUnnecessaryFiles" >
+        <delete includeemptydirs="true" failonerror="false" >
+            <fileset dir="${unnecessarySassCacheDir}" />
+        </delete>
+        <delete includeemptydirs="true" failonerror="false" >
+            <fileset dir="${unnecessaryResourcesDir}" />
+        </delete>
+        <delete includeemptydirs="true" failonerror="false" >
+            <fileset dir="${unnecessaryStylesheetsDir}" />
+        </delete>
+        <delete includeemptydirs="true" failonerror="false" >
+            <fileset dir="${buildOutputResources}" >
+                <include name="${unnecessaryExampleCssFile}" />
+                <include name="${unnecessaryReadmeFile}" />
+            </fileset>
+        </delete>
+        <delete includeemptydirs="true" failonerror="false" >
+            <fileset dir="${buildOutput}" >
+                <include name="${unnecessaryConfigRbFile}" />
+                <include name="${unnecessaryPrototypesSassFile}" />
+                <include name="${unnecessaryPrototypesExampleSassFile}" />
+                <include name="${unnecessaryThemeCaptureJsonFile}" />
+                <include name="${unnecessaryThemeCapturePngFile}" />
+            </fileset>
+        </delete>
+    </target>
+
+    <target name="main" depends="cleanOutputFolders,build,removeUnnecessaryFiles" />
+
+</project>

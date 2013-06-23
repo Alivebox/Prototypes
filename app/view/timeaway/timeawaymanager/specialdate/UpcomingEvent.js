@@ -31,7 +31,6 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.specialdate.UpcomingEvent',
     },
 
     onDateSelected: function(){
-        debugger;
         var tmpDate = this.down('linkbutton[itemId=lbtnDate]');
         var tmpName = this.down('label[itemId=lblName]');
         this.fireEvent('dateSelected', tmpDate.getValue(), tmpName.getValue());
