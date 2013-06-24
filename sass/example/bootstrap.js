@@ -29,8 +29,8 @@ Ext.Loader.addClassPathMappings({
   "Mercury.ux.view.BaseViewsContainer": "../../resources/js/mercuryext.min-1.0.0.js",
   "Mercury.core.ViewsManager": "../../resources/js/mercuryext.min-1.0.0.js",
   "Mercury.ux.util.EnhancedComponentDragger": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.form.EnhancedDatePicker": "../../resources/js/mercuryext.min-1.0.0.js",
   "Mercury.ux.view.TreeViewsContainer": "../../resources/js/mercuryext.min-1.0.0.js",
+  "Mercury.ux.form.EnhancedDatePicker": "../../resources/js/mercuryext.min-1.0.0.js",
   "Mercury.ux.form.DoubleEnhancedDatePicker": "../../resources/js/mercuryext.min-1.0.0.js",
   "Mercury.ux.form.FormContainer": "../../resources/js/mercuryext.min-1.0.0.js",
   "Mercury.ux.popup.ErrorWindow": "../../resources/js/mercuryext.min-1.0.0.js",
@@ -264,8 +264,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "Prototypes.view.project.ProjectSummaryForm": [],
   "Prototypes.view.selfservice.importwizard.PreviewImport": [],
   "Prototypes.view.project.contacts.ProjectSummaryContactsContainer": [],
-  "Prototypes.store.report.TypeLibraries": [],
   "Prototypes.view.selfservice.importwizard.ChooseFile": [],
+  "Prototypes.store.report.TypeLibraries": [],
   "Prototypes.model.resources.positions.Position": [],
   "Prototypes.view.admin.systemadmin.useradmin.MainSecurityAccessLevelsContainer": [],
   "Prototypes.store.resources.positions.Positions": [],
@@ -779,10 +779,10 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.project.contacts.ProjectSummaryContactsContainer": [
     "widget.projectsummarycontactscontainer"
   ],
-  "Prototypes.store.report.TypeLibraries": [],
   "Prototypes.view.selfservice.importwizard.ChooseFile": [
     "widget.choosefile"
   ],
+  "Prototypes.store.report.TypeLibraries": [],
   "Prototypes.model.resources.positions.Position": [],
   "Prototypes.view.admin.systemadmin.useradmin.MainSecurityAccessLevelsContainer": [
     "widget.mainsecurityaccesslevelscontainer"
