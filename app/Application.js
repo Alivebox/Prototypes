@@ -151,15 +151,23 @@ Ext.define('Prototypes.Application', {
         'timeaway.timeawaymanager.TimeAwayManagerContainer',
         'timeaway.timeawaymanager.TimeAwayManagerTabContainer',
         'timeaway.MainTimeAwayManagerContainer',
-        'vendorscustomers.AdvancedSearch',
-        'vendorscustomers.CustomerContacts',
-        'vendorscustomers.GridAdditionalAddresses',
-        'vendorscustomers.GridCustomerCenter',
-        'vendorscustomers.GridCustomerContacts',
-        'vendorscustomers.GridSavedSearches',
-        'vendorscustomers.MainSummaryContainer',
+        'vendorscustomers.NotesListView',
         'vendorscustomers.MainVendorCustomerContainer',
-        'vendorscustomers.WindowNewAddress'
+        'vendorscustomers.GridSavedSearches',
+        'vendorscustomers.GridCustomerContacts',
+        'vendorscustomers.GridCustomerCenter',
+        'vendorscustomers.CustomerContacts',
+        'vendorscustomers.AdvancedSearch',
+        'vendorscustomers.summary.SummaryTabContainer',
+        'vendorscustomers.summary.SummaryAccounting',
+        'vendorscustomers.summary.MainSummaryContainer',
+        'vendorscustomers.summary.GridSummaryRateCards',
+        'vendorscustomers.summary.GridSummaryLinkedEntities',
+        'vendorscustomers.summary.GridSummaryElements',
+        'vendorscustomers.summary.GridSummaryDocuments',
+        'vendorscustomers.summary.GeneralSummaryInfoContainer',
+        'vendorscustomers.summary.DetailedSummaryInfoContainer'
+
     ]
 
 });

@@ -5,3 +5,102 @@
  * in the development directory to load properly (i.e., "dev mode").
  */
 @import 'build/Prototypes/testing/resources/Prototypes-all.css';
+.save-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/save.gif');
+}
+
+.add-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/add.png');
+}
+
+.table-edit-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/table_edit.png');
+}
+
+.information-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/information.png');
+}
+
+.layout-content-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/layout_content.png');
+}
+
+.lightning-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/lightning.png');
+}
+
+.ises-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/button_icon_ises.jpg');
+}
+
+.delete-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/delete.png');
+}
+
+.pencil-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/pencil.png');
+}
+
+.tag-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/tag_blue.png');
+}
+
+.calendar-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/calendar.png');
+}
+
+.page-horizontal-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/page_white_horizontal.png');
+}
+
+.find-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/find.png');
+}
+
+.group-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/group.png');
+}
+
+.user-button-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/user.png');
+}
+
+.page-open-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/page_go.png');
+}
+
+.disk-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/disk.png');
+}
+
+.bin-closed-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/bin_closed.png');
+}
+
+.link-icon{
+    background-image: url('resources/icons/ShowMgrImages/16x16/link.png');
+}
+
+.rigth-border{
+    border-style:solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right-width:1px;
+}
+
+.top-border{
+    border-style:solid;
+    border-top-width:1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.bottom-border{
+    border-style:solid;
+    border-bottom-width:1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

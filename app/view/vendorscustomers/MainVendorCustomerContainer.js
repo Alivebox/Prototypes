@@ -15,9 +15,9 @@ Ext.define('Prototypes.view.vendorscustomers.MainVendorCustomerContainer', {
                 width: 260,
                 height: 900
             },
-            {
+            /*{
                 xtype: 'gridcustomercenter'
-            },
+            },*/
             {
                 xtype: 'customercontacts',
                 title: 'Customer Contacts',

@@ -6,7 +6,10 @@ Ext.define('Prototypes.ux.UxDependencies',{
         'Prototypes.ux.LinkButton',
         'Prototypes.ux.ColoredSquare',
         'Prototypes.ux.CommentsContainer',
-        'Prototypes.ux.UnsortedList'
+        'Prototypes.ux.UnsortedList',
+        'Prototypes.ux.PhoneContactContainer',
+        'Prototypes.ux.FlagsCombobox',
+        'Prototypes.ux.AddressContactContainer'
     ]
 
 });

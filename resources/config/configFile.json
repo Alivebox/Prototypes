@@ -124,7 +124,17 @@
                     }
                 ]
             },
-
+            {
+                "name": "vendorsTrade",
+                "label": "Vendors/Trades and Customers",
+                "children": [
+                    {
+                        "name": "vendorstradescustomers",
+                        "label": "Vendors/Trades and Customers",
+                        "package": "Prototypes.view.vendorscustomers.summary.MainSummaryContainer"
+                    }
+                ]
+            },
             {
                 "name": "timeaway",
                 "label": "Time Away",
@@ -142,27 +152,6 @@
                 ]
             },
 
-            {
-                "name": "vendorsTrade",
-                "label": "Vendors/Trades and Customers",
-                "children": [
-                    {
-                        "name": "vendorstradescustomers",
-                        "label": "Vendors/Trades and Customers",
-                        "package": "Prototypes.view.vendorscustomers.MainVendorCustomerContainer"
-                    },
-                    {
-                        "name": "summarycustomers",
-                        "label": "Summary",
-                        "package": "Prototypes.view.vendorscustomers.MainSummaryContainer"
-                    },
-                    {
-                        "name": "gridgrid",
-                        "label": "Grid",
-                        "package": "Prototypes.view.vendorscustomers.GridAdditionalAddresses"
-                    }
-                ]
-            }
 
         ]
     }
