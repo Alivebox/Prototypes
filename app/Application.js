@@ -166,7 +166,8 @@ Ext.define('Prototypes.Application', {
         'vendorscustomers.summary.GridSummaryElements',
         'vendorscustomers.summary.GridSummaryDocuments',
         'vendorscustomers.summary.GeneralSummaryInfoContainer',
-        'vendorscustomers.summary.DetailedSummaryInfoContainer'
+        'vendorscustomers.summary.DetailedSummaryInfoContainer',
+        'vendorscustomers.VendorCustomerContainer'
 
     ]
 

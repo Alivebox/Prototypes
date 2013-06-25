@@ -132,6 +132,11 @@
                         "name": "vendorstradescustomers",
                         "label": "Vendors/Trades and Customers",
                         "package": "Prototypes.view.vendorscustomers.summary.MainSummaryContainer"
+                    },
+                    {
+                        "name": "border",
+                        "label": "Layout Tests",
+                        "package": "Prototypes.view.vendorscustomers.MainVendorCustomerContainer"
                     }
                 ]
             },
@@ -150,7 +155,7 @@
                         "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
                     }
                 ]
-            },
+            }
 
 
         ]
