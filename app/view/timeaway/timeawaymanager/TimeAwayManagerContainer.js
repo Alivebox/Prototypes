@@ -2,29 +2,27 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerContainer', 
 
     extend: 'Ext.container.Container',
     alias: 'widget.timeawaymanagercontainer',
-    layout: 'column',
+    layout: 'hbox',
     initComponent: function () {
 
         this.items = [
             {
                 xtype: 'managerfilter',
                 title: 'Filters',
-                width: 260,
-                height: 900
+                height: 1050,
+                flex: 1,
+                border: 1
             },
             {
-                xtype: 'container',
-                items: [
-                    {
-                        xtype: 'timeawaymanagertabcontainer'
-                    }
-                ]
+                xtype: 'timeawaymanagertabcontainer',
+                flex: 4,
+                height: 1050
             },
             {
                 xtype: 'summaryinformation',
-                //width: 315,
-                width: 275,
-                height: 900
+                height: 1050,
+                flex: 1,
+                border: 1
             }
         ],
             this.callParent();

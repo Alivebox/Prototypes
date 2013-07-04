@@ -1,5 +1,4 @@
 Ext.define('Prototypes.view.vendorscustomers.NotesListView', {
-
     extend: 'Ext.view.View',
     alias: 'widget.noteslistview',
 
@@ -25,5 +24,4 @@ Ext.define('Prototypes.view.vendorscustomers.NotesListView', {
     initComponent: function () {
         this.callParent(arguments);
     }
-
 });

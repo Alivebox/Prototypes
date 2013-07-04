@@ -3,8 +3,6 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerTabContainer
     extend: 'Ext.tab.Panel',
     tabPosition: 'right',
     alias: 'widget.timeawaymanagertabcontainer',
-    width: 995,
-    height: 900,
 
     initComponent: function () {
 

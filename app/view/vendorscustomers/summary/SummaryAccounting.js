@@ -4,11 +4,15 @@ Ext.define('Prototypes.view.vendorscustomers.summary.SummaryAccounting', {
     collapsible: 'true',
     collapseDirection: 'left',
     heigth: '100%',
-
+    layout: {
+        type: 'vbox',
+        align: 'center'
+    },
     initComponent: function () {
         this.items = [
             {
                 xtype: 'container',
+                padding: '10 0 0 0',
                 layout: 'hbox',
                 items:[
                     {
@@ -73,7 +77,7 @@ Ext.define('Prototypes.view.vendorscustomers.summary.SummaryAccounting', {
                             {
                                 xtype: 'label',
                                 text: 'Net 30',
-                                padding: '63 0 0 25'
+                                padding: '66 0 0 25'
                             },
                             {
                                 xtype: 'label',
@@ -83,7 +87,7 @@ Ext.define('Prototypes.view.vendorscustomers.summary.SummaryAccounting', {
                             {
                                 xtype: 'label',
                                 text: 'NY123',
-                                padding: '63 0 0 25'
+                                padding: '68 0 0 25'
                             },
                             {
                                 xtype: 'label',
@@ -214,7 +218,7 @@ Ext.define('Prototypes.view.vendorscustomers.summary.SummaryAccounting', {
                                         fieldLabel: null,
                                         editable:false,
                                         value: 1,
-                                        width: 50,
+                                        width: 75,
                                         padding: '0 0 0 25',
                                         store:[
                                             [1, 'USD'],
@@ -239,7 +243,7 @@ Ext.define('Prototypes.view.vendorscustomers.summary.SummaryAccounting', {
                                         fieldLabel: null,
                                         editable:false,
                                         value: 1,
-                                        width: 50,
+                                        width: 75,
                                         padding: '0 0 0 25',
                                         store:[
                                             [1, 'USD'],

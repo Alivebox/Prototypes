@@ -24,6 +24,19 @@ Ext.define('Prototypes.view.vendorscustomers.GridCustomerContacts', {
     ],
     initComponent: function () {
         Ext.apply(this, {
+            dockedItems: [
+                {
+                    xtype: 'toolbar',
+                    dock: 'bottom',
+                    items: [
+                        '->',
+                        {
+                            xtype: 'button',
+                            text: 'View all contacts'
+                        }
+                    ]
+                }
+            ],
             columns: [
                 {
                     xtype: 'gridcolumn',
@@ -38,7 +51,14 @@ Ext.define('Prototypes.view.vendorscustomers.GridCustomerContacts', {
                     flex: 1
                 }
             ]
-        }),
-            this.callParent()
+        });
+        this.callParent();
     }
 });
+
+
+
+
+
+
+

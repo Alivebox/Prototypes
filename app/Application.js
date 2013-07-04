@@ -19,7 +19,11 @@ Ext.define('Prototypes.Application', {
         'selfservice.importwizard.ImportWizardController',
         'timeaway.TimeAwayController',
         'timeaway.TimeAwayManagerController',
-        'vendorscustomers.VendorCustomerController'
+        'vendorscustomers.VendorCustomerController',
+        'elementcatalog.CartController',
+        'elementcatalog.ItemsDisplayController',
+        'elementcatalog.TreeMenuController'
+
     ],
 
     models: [
@@ -38,7 +42,9 @@ Ext.define('Prototypes.Application', {
         'report.TypeLibrary',
         'resources.positions.Position',
         'timeaway.Request',
-        'timeaway.timeawaymanager.RequestDetails'
+        'timeaway.timeawaymanager.RequestDetails',
+        'elementcatalog.ItemCart',
+        'elementcatalog.Item'
     ],
 
     stores: [
@@ -55,7 +61,9 @@ Ext.define('Prototypes.Application', {
         'report.GroupLibraries',
         'report.TypeLibraries',
         'resources.positions.Positions',
-        'timeaway.Requests'
+        'timeaway.Requests',
+        'elementcatalog.ItemCarts',
+        'elementcatalog.Items'
     ],
 
     views: [
@@ -158,6 +166,7 @@ Ext.define('Prototypes.Application', {
         'vendorscustomers.GridCustomerCenter',
         'vendorscustomers.CustomerContacts',
         'vendorscustomers.AdvancedSearch',
+        'vendorscustomers.summary.AdittionInfoSummary',
         'vendorscustomers.summary.SummaryTabContainer',
         'vendorscustomers.summary.SummaryAccounting',
         'vendorscustomers.summary.MainSummaryContainer',
@@ -167,7 +176,16 @@ Ext.define('Prototypes.Application', {
         'vendorscustomers.summary.GridSummaryDocuments',
         'vendorscustomers.summary.GeneralSummaryInfoContainer',
         'vendorscustomers.summary.DetailedSummaryInfoContainer',
-        'vendorscustomers.VendorCustomerContainer'
+        'vendorscustomers.VendorCustomerContainer',
+        'vendorscustomers.VendorCustomerSidePanel',
+        'elementcatalog.cart.Cart',
+        'elementcatalog.cart.CartGrid',
+        'elementcatalog.item.ItemsDisplay',
+        'elementcatalog.item.ItemsGrid',
+        'elementcatalog.Viewport',
+        'elementcatalog.menu.TreeMenu',
+        'elementcatalog.menu.Menu',
+        'elementcatalog.menu.Details'
 
     ]
 

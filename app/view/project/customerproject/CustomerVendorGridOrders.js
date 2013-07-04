@@ -11,6 +11,19 @@ Ext.define('Prototypes.view.project.customerproject.CustomerVendorGridOrders', {
     initComponent: function () {
         Ext.apply(this, {
             renderTo: Ext.getBody(),
+            dockedItems: [
+                {
+                    xtype: 'toolbar',
+                    dock: 'bottom',
+                    items: [
+                        '->',
+                        {
+                            xtype: 'button',
+                            text: 'View all orders'
+                        }
+                    ]
+                }
+            ],
             columns: [
                 {
                     xtype: 'gridcolumn',

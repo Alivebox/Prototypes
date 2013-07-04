@@ -2,8 +2,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
 
     extend: 'Ext.panel.Panel',
     alias: 'widget.summaryinformation',
-    collapsible: true,
-    collapseDirection: 'left',
+
 
     initComponent: function () {
 

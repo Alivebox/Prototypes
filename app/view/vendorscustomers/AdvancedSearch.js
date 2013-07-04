@@ -11,6 +11,7 @@ Ext.define('Prototypes.view.vendorscustomers.AdvancedSearch', {
                 fieldLabel: 'Name',
                 editable:false,
                 padding: '25 0 0 2',
+                width: 240,
                 emptyText: '...Select',
                 store:[
                     [1, 'ShowMgr.com'],
@@ -20,10 +21,12 @@ Ext.define('Prototypes.view.vendorscustomers.AdvancedSearch', {
             },
             {
                 xtype:'textfield',
+                width: 240,
                 fieldLabel: 'Address',
                 padding: '0 0 0 2'
             },{
                 xtype:'combobox',
+                width: 240,
                 fieldLabel: 'Contact',
                 editable:false,
                 padding: '0 0 0 2',
@@ -36,6 +39,7 @@ Ext.define('Prototypes.view.vendorscustomers.AdvancedSearch', {
             },
             {
                 xtype:'combobox',
+                width: 240,
                 fieldLabel: 'Status',
                 editable:false,
                 padding: '0 0 0 2',
@@ -48,6 +52,7 @@ Ext.define('Prototypes.view.vendorscustomers.AdvancedSearch', {
             },
             {
                 xtype:'combobox',
+                width: 240,
                 fieldLabel: 'Added in last',
                 editable:false,
                 padding: '0 0 0 2',
@@ -85,7 +90,7 @@ Ext.define('Prototypes.view.vendorscustomers.AdvancedSearch', {
                     {
                         xtype: 'label',
                         text: 'Adhoc',
-                        padding: '0 75 0 78'
+                        padding: '0 75 0 60'
                     },
                     {
                         xtype: 'button',

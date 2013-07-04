@@ -92,7 +92,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
                     {
                         xtype: 'label',
                         text: 'Adhoc',
-                        padding: '0 75 0 78'
+                        padding: '0 75 0 70'
                     },
                     {
                         xtype: 'button',

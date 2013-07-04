@@ -4,7 +4,7 @@ Ext.define('Prototypes.view.vendorscustomers.MainVendorCustomerContainer', {
     alias: 'widget.mainvendorcustomercontainer',
     autoScroll: true,
     scroll: 'both',
-    layout: "column",
+    layout: "hbox",
 
     initComponent: function () {
 
@@ -12,17 +12,26 @@ Ext.define('Prototypes.view.vendorscustomers.MainVendorCustomerContainer', {
             {
                 xtype: 'advancedsearch',
                 title: 'Advanced Search',
-                width: 260,
-                height: 900
+                flex: 1,
+                height: 1050,
+                border: 1
+
             },
             {
-                xtype: 'gridcustomercenter'
+                title: 'Customer Center',
+                xtype: 'gridcustomercenter',
+                flex: 4,
+                height: 1050,
+                border: 1
+
             },
             {
                 xtype: 'customercontacts',
                 title: 'Customer Contacts',
-                width: 275,
-                height: 900
+                flex: 1,
+                height: 1050,
+                border: 1
+
             }
         ],
         this.callParent(arguments);

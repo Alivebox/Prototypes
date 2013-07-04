@@ -2,15 +2,17 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.ManagePolicyC
 
     extend: 'Ext.container.Container',
     alias: 'widget.managepolicycontainer',
-    layout: 'column',
-    height: 900,
+    layout: 'hbox',
+    height: 1050,
     initComponent: function () {
 
         this.items = [
             {
                 xtype: 'panel',
                 title: 'Resources',
-                height: 900,
+                flex: 1,
+                border: 1,
+                height: 1050,
                 items: [
                     {
                         xtype: 'gridavailableresources',
@@ -22,16 +24,17 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.ManagePolicyC
             {
                 xtype: 'panel',
                 title: 'Policies',
-                width: 780,
-                height: 900,
+                flex: 2,
+                border: 1,
+                height: 1050,
                 items: [
                     {
                         xtype: 'gridpolicymanager',
-                        height: 600
+                        height: 500
                     },
                     {
                         xtype: 'formpolicy',
-                        height: 300
+                        height: 350
                     }
                 ]
             }
