@@ -142,7 +142,7 @@ Ext.define('Prototypes.view.vendorscustomers.summary.GeneralSummaryInfoContainer
 
     onUploadFilePathChange: function (argComponent, argValue) {
         var tmpLogoImage = this.down('image[itemId=logoimage]');
-        tmpLogoImage.setSrc('resources/icons/ShowMgrImages/logos/' + argValue.replace("C:\\fakepath\\", ""));
+        tmpLogoImage.setSrc('resources/icons/ShowMgrImages/ClientLogos/' + argValue.replace("C:\\fakepath\\", ""));
         tmpLogoImage.doLayout();
     },
 

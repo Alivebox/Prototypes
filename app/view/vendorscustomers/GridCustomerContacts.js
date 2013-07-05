@@ -44,8 +44,8 @@ Ext.define('Prototypes.view.vendorscustomers.GridCustomerContacts', {
                     dataIndex: 'name',
                     flex: 1,
                     renderer: function(value,metaData,record,colIndex,store,view) {
-                        var myToolTipText = "<div><img src='resources/images/contact.png' width='32' height='32'></div>";
-                        myToolTipText = myToolTipText + '<div>Phone:'+record.data.phone+ '<br>Email:'+record.data.email+'</div>';
+                        var myToolTipText = "<div><img src='resources/images/contact.png' width='32' height='32' style='position:absolute;'></div>";
+                        myToolTipText = myToolTipText + "<div style='padding-left: 35px'>Phone:"+record.data.phone+ "<br>Email:"+record.data.email+"</div>";
                         metaData.tdAttr = 'data-qtip="' + myToolTipText + '"';
                         return value;
                     }
@@ -57,8 +57,8 @@ Ext.define('Prototypes.view.vendorscustomers.GridCustomerContacts', {
                     dataIndex: 'title',
                     flex: 1,
                     renderer: function(value,metaData,record,colIndex,store,view) {
-                        var myToolTipText = "<img src='resources/images/contact.png' width='32' height='32'>";
-                        myToolTipText = myToolTipText + '<br>Phone:'+record.data.phone+ '<br>Email:'+record.data.email;
+                        var myToolTipText = "<div><img src='resources/images/contact.png' width='32' height='32' style='position:absolute;'></div>";
+                        myToolTipText = myToolTipText + "<div style='padding-left: 35px'>Phone:"+record.data.phone+ "<br>Email:"+record.data.email+"</div>";
                         metaData.tdAttr = 'data-qtip="' + myToolTipText + '"';
                         return value;
                     }
