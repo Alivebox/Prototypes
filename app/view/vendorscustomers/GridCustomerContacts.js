@@ -6,6 +6,7 @@ Ext.define('Prototypes.view.vendorscustomers.GridCustomerContacts', {
     enableLocking: true,
     scroll: 'vertical',
     autoScroll: true,
+    tooltip: 'Image here',
     store: Ext.create('Ext.data.Store', {
         fields: ['name', 'title', 'phone', 'email'],
         data: [
@@ -13,15 +14,14 @@ Ext.define('Prototypes.view.vendorscustomers.GridCustomerContacts', {
             { "name": "Randy Rosen", "title": "VP of Marketing", "phone": "(800) 867-5309 ext 713", "email": "randy.rose@showmgr.com"}
         ]
     }),
-
-    plugins: [
+    /*plugins: [
         {
             ptype: 'rowexpander',
             rowBodyTpl: new Ext.XTemplate(
                 '<p style = "padding-left: 25px">Phone: {phone}</p>',
                 '<p style = "padding-left: 25px">Email: {email}</p><br>')
         }
-    ],
+    ],*/
     initComponent: function () {
         Ext.apply(this, {
             dockedItems: [
@@ -42,18 +42,32 @@ Ext.define('Prototypes.view.vendorscustomers.GridCustomerContacts', {
                     xtype: 'gridcolumn',
                     text: "Name",
                     dataIndex: 'name',
-                    flex: 1
+                    flex: 1,
+                    renderer: function(value,metaData,record,colIndex,store,view) {
+                        var myToolTipText = "<div><img src='resources/images/contact.png' width='32' height='32'></div>";
+                        myToolTipText = myToolTipText + '<div>Phone:'+record.data.phone+ '<br>Email:'+record.data.email+'</div>';
+                        metaData.tdAttr = 'data-qtip="' + myToolTipText + '"';
+                        return value;
+                    }
                 },
+
                 {
                     xtype: 'gridcolumn',
                     text: "Title",
                     dataIndex: 'title',
-                    flex: 1
+                    flex: 1,
+                    renderer: function(value,metaData,record,colIndex,store,view) {
+                        var myToolTipText = "<img src='resources/images/contact.png' width='32' height='32'>";
+                        myToolTipText = myToolTipText + '<br>Phone:'+record.data.phone+ '<br>Email:'+record.data.email;
+                        metaData.tdAttr = 'data-qtip="' + myToolTipText + '"';
+                        return value;
+                    }
                 }
             ]
         });
         this.callParent();
     }
+
 });
 
 

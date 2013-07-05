@@ -12,21 +12,27 @@ Ext.define('Prototypes.view.vendorscustomers.summary.GeneralSummaryInfoContainer
                 padding: '25 0 0 0',
                 items: [
                     {
-                        xtype: 'image',
-                        itemId: 'logoimage',
-                        src: 'resources/icons/ShowMgrImages/logo_showmgr_wide.png'
-                    },
-                    {
-                        xtype: 'fileuploadfield',
-                        buttonOnly: true,
-                        buttonText: null,
-                        buttonConfig: {
-                            iconCls: 'pencil-button-icon'
-                        },
-                        listeners: {
-                            scope: this,
-                            change: this.onUploadFilePathChange
-                        }
+                        xtype: 'container',
+                        layout: 'hbox',
+                        items: [
+                            {
+                                xtype: 'image',
+                                itemId: 'logoimage',
+                                src: 'resources/icons/ShowMgrImages/logo_showmgr_wide.png'
+                            },
+                            {
+                                xtype: 'fileuploadfield',
+                                buttonOnly: true,
+                                buttonText: null,
+                                buttonConfig: {
+                                    iconCls: 'pencil-button-icon'
+                                },
+                                listeners: {
+                                    scope: this,
+                                    change: this.onUploadFilePathChange
+                                }
+                            }
+                        ]
                     },
                     {
                         xtype: 'container',
