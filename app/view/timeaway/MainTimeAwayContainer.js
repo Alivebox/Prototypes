@@ -13,14 +13,16 @@ Ext.define('Prototypes.view.timeaway.MainTimeAwayContainer', {
                     {
                         title: 'Time Away Request Center',
                         xtype: 'container',
-                        layout: 'column',
+                        layout: 'hbox',
                         items: [
                             {
                                 xtype: 'timeawaycontainer',
-                                layout: 'fit'
+                                //layout: 'fit',
+                                flex: 3
                             },
                             {
-                                xtype: 'summaryrequestinformation'
+                                xtype: 'summaryrequestinformation',
+                                flex: 1
                             }
                         ]
                     },

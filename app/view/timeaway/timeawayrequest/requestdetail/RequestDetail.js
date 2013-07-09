@@ -4,7 +4,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail
     alias: 'widget.requestdetail',
     title: 'Request Detail',
     width: 700,
-    height: 310,
+    height: 350,
     initComponent:function () {
 
         this.items = [

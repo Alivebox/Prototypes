@@ -3,8 +3,8 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.requestdetail.CalendarReque
     extend: 'Ext.panel.Panel',
     alias: 'widget.calendarrequest',
     title: 'Calendar Request',
-    height: 310,
-    width: 280,
+    height: 350,
+    width: 475,
     initComponent:function () {
 
         this.items = [

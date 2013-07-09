@@ -86,7 +86,7 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayManagerController', {
         }
         if(!newCard.showRigthWing){
             this.getRightPanel().collapse( 'left', false);
-            this.getTabContainer().setWidth(1260);
+            this.getTabContainer().setWidth(1100);
             this.hideFilterDisplay();
         }else{
             this.getRightPanel().expand(false);
