@@ -10,9 +10,9 @@
 
     "viewsManagement": {
         "enabled": true,
-        "viewsContainerPackage": "Mercury.ux.view.TreeViewsContainer",
+        "viewsContainerPackage": "Mercury.ux.view.TabViewsContainer",
         "views": [
-            {
+            /*{
                 "name": "elementcatalog",
                 "label": "Element Catalog",
                 "children": [
@@ -39,11 +39,12 @@
                         "default": true
                     }
                 ]
-            },
+            },*/
             {
                 "name": "timeaway",
                 "label": "Time Away",
-                "children": [
+                "package": "Prototypes.view.timeaway.MainTimeAwayContainer"
+                /*"children": [
                     {
                         "name": "menutimeaway",
                         "label": "Time Away Request Center",
@@ -54,8 +55,13 @@
                         "label": "Time Away Request Manager",
                         "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
                     }
-                ]
+                ]*/
             },
+            {
+                "name": "timeawaymanager",
+                "label": "Time Away Manager",
+                "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
+            }/*,
             {
                 "name": "admin",
                 "label": "Admin",
@@ -152,7 +158,7 @@
                         "package": "Prototypes.view.selfservice.importwizard.ImportWizardCardContainer"
                     }
                 ]
-            }
+            }*/
         ]
     }
 
