@@ -2,8 +2,8 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
 
     extend: 'Ext.panel.Panel',
     alias: 'widget.summaryinformation',
-
-
+    collapsible: true,
+    collapseDirection: 'right',
     initComponent: function () {
 
         this.items = [
@@ -18,7 +18,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                 items: [
                     {
                         xtype: 'container',
-                        padding : '25 0 0 0',
+                        padding : '15 0 0 0',
                         layout: 'vbox',
                         items: [
                             {
@@ -57,7 +57,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                     },
                     {
                         xtype: 'container',
-                        padding : '5 0 25 0',
+                        padding : '5 0 15 0',
                         layout: 'vbox',
                         items: [
                             {
@@ -83,7 +83,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                     {
                         xtype: 'gridrequestdetails',
                         columnLines: false,
-                        rowLines: false,
+                        rowLines: true,
                         height: 150,
                         autoScroll: true,
                         scroll: 'vertical',
@@ -110,8 +110,8 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                     {
                         xtype: 'gridbalanceinformation',
                         columnLines: false,
-                        rowLines: false,
-                        height: 150,
+                        rowLines: true,
+                        height: 125,
                         width: '100%'
                     }
                 ]
@@ -126,17 +126,17 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                     {
                         xtype: 'label',
                         text: 'Balance Detail Report',
-                        padding: '25 25 0 75'
+                        padding: '10 25 0 75'
                     },
                     {
                         xtype: 'label',
                         text: 'Request Summary',
-                        padding: '15 25 0 75'
+                        padding: '5 25 0 75'
                     },
                     {
                         xtype: 'label',
                         text: 'Print Request',
-                        padding: '15 25 25 75'
+                        padding: '5 25 10 75'
                     }
                 ]
             }

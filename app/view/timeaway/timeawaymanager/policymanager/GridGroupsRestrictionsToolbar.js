@@ -4,7 +4,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.GridGroupsRes
     alias: 'widget.gridgroupsrestrictionstoolbar',
     disableSelection: true,
     sortableColumns: false,
-
+    title: 'Group Restrictions',
     initComponent: function () {
         Ext.apply(this, {
             dockedItems: [

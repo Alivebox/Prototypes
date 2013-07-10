@@ -3,7 +3,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.TimeAwayContainer', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.timeawaycontainer',
     width: '100%',
-    height: '100%',
+    height: '85%',
     layout: {
         type: 'vbox',
         align: 'center'

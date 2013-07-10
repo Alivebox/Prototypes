@@ -2,6 +2,9 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.GridRequestDeta
 
     extend: 'Ext.grid.Panel',
     alias: 'widget.gridrequestdetails',
+    enableColumnResize: false,
+    sortableColumns: false,
+    enableColumnHide: false,
     disableSelection: true,
     store: Ext.create('Ext.data.Store', {
         fields: ['date', 'duration', 'startTime', 'endTime', 'timeZone'],
@@ -34,34 +37,41 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.GridRequestDeta
                     xtype: 'gridcolumn',
                     text: "Date",
                     dataIndex: 'date',
+                    style: 'font-size:8px;',
+                    align: 'left',
                     flex: 1.5
                 },
                 {
                     xtype: 'gridcolumn',
                     text: "Duration",
                     dataIndex: 'duration',
+                    style: 'font-size:8px;',
                     flex: 1,
-                    align: 'center'
+                    align: 'left'
                 },
                 {
                     xtype: 'gridcolumn',
                     text: "Start Time",
                     dataIndex: 'startTime',
+                    style: 'font-size:8px;',
                     flex: 1,
-                    align: 'center'
+                    align: 'left'
                 },
                 {
                     xtype: 'gridcolumn',
                     text: "End Time",
                     dataIndex: 'endTime',
+                    style: 'font-size:8px;',
                     flex: 1,
-                    align: 'center'
+                    align: 'left'
                 },
                 {
                     xtype: 'gridcolumn',
                     text: "Time Zone",
+                    style: 'font-size:8px;',
                     dataIndex: 'timeZone',
-                    flex: 1.5
+                    flex: 1,
+                    align: 'left'
                 }
             ]
         }),

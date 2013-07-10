@@ -937,11 +937,11 @@ Ext.define('Mercury.core.ViewsManager', {
         if( Ext.isEmpty(this.viewModels) ){
             return;
         }
-        var tmpCurrentHistoryPage = Ext.util.History.getToken();
+        /*var tmpCurrentHistoryPage = Ext.util.History.getToken();
         if( !Ext.isEmpty(tmpCurrentHistoryPage) ){
             this.showPage(tmpCurrentHistoryPage);
             return;
-        }
+        }*/
         this.showDefaultPage();
     },
 

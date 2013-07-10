@@ -79,7 +79,7 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayManagerController', {
     },
 
     onTabChange: function( tabPanel, newCard, oldCard, eOpts){
-        /*if(newCard.displayPeriod){
+        if(newCard.displayPeriod){
             this.showPeriodDisplay();
         }else{
             this.hidePeriodDisplay();
@@ -94,29 +94,29 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayManagerController', {
             this.getTabContainer().setWidth(995);
             this.showFilterDisplay();
 
-        }*/
+        }
     },
 
     hideFilterDisplay: function(){
-        /*this.getResourceFilter().setVisible(false);
+        this.getResourceFilter().setVisible(false);
         this.getStatusFilter().setVisible(false);
-        this.getManagerfilter().doLayout();*/
+        this.getManagerfilter().doLayout();
     },
 
     showFilterDisplay: function(){
-        /*this.getResourceFilter().setVisible(true);
+        this.getResourceFilter().setVisible(true);
         this.getStatusFilter().setVisible(true);
-        this.getManagerfilter().doLayout();*/
+        this.getManagerfilter().doLayout();
     },
 
     hidePeriodDisplay: function(){
-        /*this.getPeriodFilter().setVisible(false);
-        this.getManagerfilter().doLayout();*/
+        this.getPeriodFilter().setVisible(false);
+        this.getManagerfilter().doLayout();
     },
 
     showPeriodDisplay: function(){
-        /*this.getPeriodFilter().setVisible(true);
-        this.getManagerfilter().doLayout();*/
+        this.getPeriodFilter().setVisible(true);
+        this.getManagerfilter().doLayout();
     },
 
     onGridRowSelected: function(argGrid, argRow){

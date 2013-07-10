@@ -162,6 +162,7 @@ Ext.define('Prototypes.Application', {
         'timeaway.timeawaymanager.GridTimeAwayRequest',
         'timeaway.timeawaymanager.TimeAwayManagerContainer',
         'timeaway.timeawaymanager.TimeAwayManagerTabContainer',
+        'timeaway.timeawaymanager.TimeAwayGridContainer',
         'timeaway.MainTimeAwayManagerContainer'/*,
         'vendorscustomers.NotesListView',
         'vendorscustomers.MainVendorCustomerContainer',
