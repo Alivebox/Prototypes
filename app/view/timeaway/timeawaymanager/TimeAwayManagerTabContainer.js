@@ -3,6 +3,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerTabContainer
     extend: 'Ext.tab.Panel',
     tabPosition: 'right',
     alias: 'widget.timeawaymanagertabcontainer',
+    title: 'Requests',
 
     initComponent: function () {
 

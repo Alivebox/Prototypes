@@ -2,40 +2,54 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail
 
     extend: 'Ext.panel.Panel',
     alias: 'widget.requestdetail',
-    title: 'Request Detail',
-    width: 700,
-    height: 350,
+    title: 'Requests Details',
+    height: '100%',
+    width: '100%',
+    layout: {
+        type: 'vbox',
+        align: 'center'
+    },
     initComponent:function () {
 
         this.items = [
             {
-                xtype: 'gridrequestdetail',
-                padding: '10 10 10 10'
-            },
-            {
-                xtype: 'combobox',
-                itemId: 'cbApprover',
-                fieldLabel: 'Approver',
-                displayField: 'name',
-                valueField: 'name',
-                padding: '0 0 0 10',
-                store: Ext.create('Ext.data.Store', {
-                    fields: ['id', 'name'],
-                    data: [
-                        {
-                            "id": "1",
-                            "name": "Kent, Clark"
-                        }
-                    ]
-                }),
-                editable: false,
-                queryMode: 'local'
-            },
-            {
-                xtype: 'textareafield',
-                itemId: 'taReason',
-                padding: '0 0 0 10',
-                fieldLabel: 'Reason'
+                xtype: 'container',
+                layout: 'vbox',
+                width: '100%',
+                items:[
+                    {
+                        xtype: 'gridrequestdetail',
+                        padding: '10 10 10 10',
+                        width: '100%'
+                    },
+                    {
+                        xtype: 'combobox',
+                        itemId: 'cbApprover',
+                        fieldLabel: 'Approver',
+                        displayField: 'name',
+                        valueField: 'name',
+                        width: '30%',
+                        padding: '0 0 0 10',
+                        store: Ext.create('Ext.data.Store', {
+                            fields: ['id', 'name'],
+                            data: [
+                                {
+                                    "id": "1",
+                                    "name": "Kent, Clark"
+                                }
+                            ]
+                        }),
+                        editable: false,
+                        queryMode: 'local'
+                    },
+                    {
+                        xtype: 'textareafield',
+                        itemId: 'taReason',
+                        padding: '0 0 0 10',
+                        width: '85%',
+                        fieldLabel: 'Reason'
+                    }
+                ]
             },
             {
                 xtype: 'container',

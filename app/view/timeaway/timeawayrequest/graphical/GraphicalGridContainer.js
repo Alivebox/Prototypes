@@ -16,7 +16,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalGridCont
                         xtype: 'button',
                         align: 'left',
                         margin: '0 0 5 0',
-                        icon: '/resources/icons/ShowMgrImages/graphicalgrid/back.png',
+                        iconCls: 'arrow-left-button',
                         listeners: {
                             scope: this,
                             click: this.onBackwardClick
@@ -29,7 +29,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalGridCont
                         align: 'right',
                         style: 'float:right',
                         margin: '0 0 5 0',
-                        icon: '/resources/icons/ShowMgrImages/graphicalgrid/foward.png',
+                        iconCls: 'arrow-right-button',
                         listeners: {
                             scope: this,
                             click: this.onFowardClick

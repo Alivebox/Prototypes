@@ -2,7 +2,6 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalAvailabi
 
     extend: 'Ext.panel.Panel',
     alias: 'widget.graphicalavailabilitytool',
-    title: 'Graphical Availability',
     width: '100%',
     initComponent:function () {
         this.items = [

@@ -14,16 +14,9 @@ Ext.define('Prototypes.view.timeaway.MainTimeAwayManagerContainer', {
                     {
                         title: 'Time Away Request Manager',
                         xtype: 'timeawaymanagercontainer',
-                        //height: 900,
                         height: '100%',
                         width: '100%',
                         scroll: 'both'
-                    },
-                    {
-                        title: 'Order'
-                    },
-                    {
-                        title: 'Executive Dashboard'
                     }
                 ]
             }

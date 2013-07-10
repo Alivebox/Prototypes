@@ -2,8 +2,9 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.ViewAvailability'
 
     extend: 'Ext.panel.Panel',
     alias: 'widget.viewavailability',
-    title: 'View Availability For',
-    width: 1100,
+    border: 1,
+    width: '100%',
+    title: 'View Availability',
     initComponent:function () {
 
         this.items = [
@@ -15,7 +16,8 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.ViewAvailability'
                     {
                         xtype: 'label',
                         text: 'View availability for: ',
-                        padding: '0 0 0 10'
+                        style: 'font-weight:bold;',
+                        padding: '3 0 0 10'
                     },
                     {
                         xtype: 'combobox',
@@ -30,6 +32,14 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.ViewAvailability'
                                 {
                                     "id": "1",
                                     "name": "Division/Dept"
+                                },
+                                {
+                                    "id": "2",
+                                    "name": "Element Group"
+                                },
+                                {
+                                    "id": "3",
+                                    "name": "Position"
                                 }
                             ]
                         }),
@@ -59,17 +69,15 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.ViewAvailability'
             },
             {
                 xtype: 'container',
-                layout: 'column',
+                layout: 'hbox',
                 items: [
                     {
                         xtype: 'approvedrequestdetails',
-                        width: 140,
-                        height: 300
+                        flex: 0.5
                     },
                     {
                         xtype: 'graphicalavailabilitytool',
-                        width: 958,
-                        height: 300
+                        flex: 5
                     }
                 ]
             }

@@ -1,30 +1,40 @@
 Ext.define('Prototypes.view.timeaway.timeawayrequest.TimeAwayContainer', {
 
-    extend: 'Ext.container.Container',
+    extend: 'Ext.panel.Panel',
     alias: 'widget.timeawaycontainer',
-    height: '100%',
     width: '100%',
-    layout: 'vbox',
+    height: '100%',
+    layout: {
+        type: 'vbox',
+        align: 'center'
+    },
     initComponent:function () {
         this.items = [
             {
-                xtype: 'container',
-                flex: 2,
+                xtype: 'panel',
+                flex: 1,
+                width: '100%',
                 layout: 'hbox',
                 items: [
                     {
+
                         xtype: 'calendarrequest',
-                        flex: 1
+                        flex: 1,
+                        border: 1
                     },
                     {
                         xtype: 'requestdetail',
-                        flex: 2
+                        flex: 2,
+                        border: 1
                     }
                 ]
             },
             {
                 xtype: 'viewavailability',
-                flex: 1
+                flex: 1,
+                width: '100%',
+                collapsible: 'true',
+                collapseDirection: 'bottom'
             }
         ]
         this.callParent(arguments)

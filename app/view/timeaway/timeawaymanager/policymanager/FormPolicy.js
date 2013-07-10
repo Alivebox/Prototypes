@@ -3,7 +3,10 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
     extend: 'Ext.form.Panel',
     alias: 'widget.formpolicy',
     title: 'Edit Policy',
-    layout: 'anchor',
+    layout: {
+        type: 'vbox',
+        align: 'center'
+    },
 
     initComponent: function () {
         this.items = [
@@ -15,7 +18,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
                     {
                         xtype: 'container',
                         layout: 'vbox',
-                        padding: '10 0 0 20',
+                        padding: '10 0 0 0',
                         items: [
                             {
                                 xtype: 'textfield',
@@ -314,7 +317,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
             {
                 xtype: 'container',
                 layout: 'vbox',
-                padding: '0 0 0 327',
+                padding: '15 0 0 0',
                 items: [
                     {
                         xtype: 'button',

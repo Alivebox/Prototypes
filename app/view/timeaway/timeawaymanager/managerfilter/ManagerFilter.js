@@ -3,14 +3,17 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
     alias: 'widget.managerfilter',
     collapsible: 'true',
     collapseDirection: 'left',
-
+    layout: {
+        type: 'vbox',
+        align: 'center'
+    },
     initComponent: function () {
         this.items = [
             {
                 xtype:'combobox',
                 fieldLabel: 'Division',
                 editable:false,
-                padding: '25 0 0 2',
+                padding: '25 0 0 0',
                 emptyText: '...Select',
                 store:[
                     [1, 'NY-ART'],
@@ -22,7 +25,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
                 xtype:'combobox',
                 fieldLabel: 'Department',
                 editable:false,
-                padding: '0 0 0 2',
+                padding: '0 0 0 0',
                 emptyText: '...Select',
                 store:[
                     [1, 'PHOTO'],
@@ -33,7 +36,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
                 xtype:'combobox',
                 fieldLabel: 'Group',
                 editable:false,
-                padding: '0 0 0 2',
+                padding: '0 0 0 0',
                 emptyText: '...Select',
                 store:[
                     [1, 'CAM1'],
@@ -46,7 +49,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
                 fieldLabel: 'Resource',
                 itemId: 'resourceFilter',
                 editable:false,
-                padding: '0 0 0 2',
+                padding: '0 0 0 0',
                 emptyText: '...Select',
                 store:[
                     [1, 'Bruce Wayne'],
@@ -59,7 +62,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
                 fieldLabel: 'Status',
                 itemId: 'statusFilter',
                 editable:false,
-                padding: '0 0 0 2',
+                padding: '0 0 0 0',
                 emptyText: '...Select',
                 store:[
                     [1, 'Declined'],
@@ -72,7 +75,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
                 fieldLabel: 'Added in last',
                 itemId: 'periodFilter',
                 editable:false,
-                padding: '0 0 0 2',
+                padding: '0 0 0 0',
                 emptyText: '...Select',
                 store:[
                     [1, '5 days'],
@@ -83,7 +86,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
             {
                 xtype: 'container',
                 layout: 'hbox',
-                padding: '50 0 0 2',
+                padding: '50 0 0 0',
                 items: [
                     {
                         xtype: 'label',
@@ -108,7 +111,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
                 xtype:'combobox',
                 fieldLabel: 'Saved Searches',
                 editable:false,
-                padding: '0 0 0 2',
+                padding: '0 0 0 0',
                 value: 1,
                 store:[
                     [1, 'Adhoc'],

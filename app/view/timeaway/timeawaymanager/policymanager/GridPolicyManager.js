@@ -20,6 +20,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.GridPolicyMan
         ]
     }),
     tbar:[
+        '->',
         {
             xtype: 'button',
             text: 'Add',

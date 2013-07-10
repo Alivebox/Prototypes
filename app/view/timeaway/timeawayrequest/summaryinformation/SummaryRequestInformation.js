@@ -1,9 +1,7 @@
 Ext.define('Prototypes.view.timeaway.timeawayrequest.summaryinformation.SummaryRequestInformation', {
 
-    extend: 'Ext.container.Container',
+    extend: 'Ext.panel.Panel',
     alias: 'widget.summaryrequestinformation',
-    width: 350,
-    height: 900,
     initComponent: function () {
 
         this.items = [
@@ -17,7 +15,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.summaryinformation.SummaryR
                         xtype: 'gridbalanceprofile',
                         padding: '10 10 10 10',
                         columnLines: false,
-                        rowLines: false,
+                        rowLines: true,
                         width: '100%',
                         height: 300
                     }
@@ -33,7 +31,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.summaryinformation.SummaryR
                         xtype: 'gridrequesthistory',
                         columnLines: false,
                         padding: '10 10 10 10',
-                        rowLines: false,
+                        rowLines: true,
                         width: '100%',
                         height: 300
                     }

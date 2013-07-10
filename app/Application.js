@@ -4,7 +4,7 @@ Ext.define('Prototypes.Application', {
     extend: 'Ext.app.Application',
 
     controllers: [
-        'admin.packages.PackagesController',
+        /*'admin.packages.PackagesController',
         'admin.services.ServicesController',
         'admin.systemadmin.useradmin.SecurityAccessLevelController',
         'admin.systemadmin.useradmin.UserMaintenanceController',
@@ -16,18 +16,18 @@ Ext.define('Prototypes.Application', {
         'report.DocumentLibraryController',
         'report.ReportLibraryController',
         'resources.positions.ResourcesController',
-        'selfservice.importwizard.ImportWizardController',
+        'selfservice.importwizard.ImportWizardController',*/
         'timeaway.TimeAwayController',
-        'timeaway.TimeAwayManagerController',
+        'timeaway.TimeAwayManagerController'/*,
         'vendorscustomers.VendorCustomerController',
         'elementcatalog.CartController',
         'elementcatalog.ItemsDisplayController',
-        'elementcatalog.TreeMenuController'
+        'elementcatalog.TreeMenuController'*/
 
     ],
 
     models: [
-        'admin.packages.Package',
+        /*'admin.packages.Package',
         'admin.packages.PackageSummary',
         'admin.services.Service',
         'admin.services.ServiceType',
@@ -40,15 +40,15 @@ Ext.define('Prototypes.Application', {
         'report.FolderLibrary',
         'report.GroupLibrary',
         'report.TypeLibrary',
-        'resources.positions.Position',
+        'resources.positions.Position',*/
         'timeaway.Request',
-        'timeaway.timeawaymanager.RequestDetails',
+        'timeaway.timeawaymanager.RequestDetails'/*,
         'elementcatalog.ItemCart',
-        'elementcatalog.Item'
+        'elementcatalog.Item'*/
     ],
 
     stores: [
-        'admin.packages.Packages',
+        /*'admin.packages.Packages',
         'admin.services.Services',
         'admin.services.ServiceTypes',
         'admin.systemadmin.useradmin.SecurityLevels',
@@ -60,14 +60,14 @@ Ext.define('Prototypes.Application', {
         'report.FolderLibraries',
         'report.GroupLibraries',
         'report.TypeLibraries',
-        'resources.positions.Positions',
-        'timeaway.Requests',
+        'resources.positions.Positions',*/
+        'timeaway.Requests'/*,
         'elementcatalog.ItemCarts',
-        'elementcatalog.Items'
+        'elementcatalog.Items'*/
     ],
 
     views: [
-        'admin.packages.summary.FormPackageSummary',
+        /*'admin.packages.summary.FormPackageSummary',
         'admin.packages.summary.SummaryPopUp',
         'admin.packages.GridPackages',
         'admin.packages.Packages',
@@ -122,7 +122,7 @@ Ext.define('Prototypes.Application', {
         'selfservice.importwizard.DateFieldMapping',
         'selfservice.importwizard.ImportWizardCardContainer',
         'selfservice.importwizard.PreviewFile',
-        'selfservice.importwizard.PreviewImport',
+        'selfservice.importwizard.PreviewImport',*/
         'timeaway.executivedashboard.ExecutiveDashboardContainer',
         'timeaway.executivedashboard.SearchExecutiveDashboard',
         'timeaway.timeawayrequest.graphical.ApprovedRequestDetails',
@@ -158,7 +158,7 @@ Ext.define('Prototypes.Application', {
         'timeaway.timeawaymanager.GridTimeAwayRequest',
         'timeaway.timeawaymanager.TimeAwayManagerContainer',
         'timeaway.timeawaymanager.TimeAwayManagerTabContainer',
-        'timeaway.MainTimeAwayManagerContainer',
+        'timeaway.MainTimeAwayManagerContainer'/*,
         'vendorscustomers.NotesListView',
         'vendorscustomers.MainVendorCustomerContainer',
         'vendorscustomers.GridSavedSearches',
@@ -185,7 +185,7 @@ Ext.define('Prototypes.Application', {
         'elementcatalog.Viewport',
         'elementcatalog.menu.TreeMenu',
         'elementcatalog.menu.Menu',
-        'elementcatalog.menu.Details'
+        'elementcatalog.menu.Details'*/
 
     ]
 

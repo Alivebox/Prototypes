@@ -112,5 +112,25 @@
     width: 70%;
 }
 
+.arrow-left-button{
+    background-image: url('resources/icons/ShowMgrImages/16x16/control_rewind.png');
+}
 
+.arrow-right-button{
+    background-image: url('resources/icons/ShowMgrImages/16x16/control_fastforward.png');
+}
 
+.cell-yellow {
+    background: yellow;
+    background-color: yellow;
+}
+
+.cell-green {
+    background: green;
+    background-color: green;
+}
+
+.cell-red {
+    background: red;
+    background-color: red;
+}

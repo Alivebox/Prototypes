@@ -9,18 +9,18 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerContainer', 
             {
                 xtype: 'managerfilter',
                 title: 'Filters',
-                height: 1050,
+                height: 900,
                 flex: 1,
                 border: 1
             },
             {
                 xtype: 'timeawaymanagertabcontainer',
-                flex: 4,
-                height: 1050
+                flex: 5,
+                height: 900
             },
             {
                 xtype: 'summaryinformation',
-                height: 1050,
+                height: 900,
                 flex: 1,
                 border: 1
             }

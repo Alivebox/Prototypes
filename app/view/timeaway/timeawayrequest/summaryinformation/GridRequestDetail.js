@@ -46,7 +46,8 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.summaryinformation.GridRequ
     store: tmpStore,
     amText: 'AM',
     pmText: 'PM',
-    height: 150,
+    width: '100%',
+    //height: 150,
     initComponent: function () {
         this.cbTimeZone = this.onTimeZoneComboBox();
         this.startTime = this.onCreateTimeField(this.amText);

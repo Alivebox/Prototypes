@@ -11,16 +11,19 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                 xtype: 'panel',
                 title: 'Actions',
                 collapsible: true,
-                layout: 'vbox',
+                layout: {
+                    type: 'vbox',
+                    align: 'center'
+                },
                 items: [
                     {
                         xtype: 'container',
-                        padding : '25 0 0 50',
+                        padding : '25 0 0 0',
                         layout: 'vbox',
                         items: [
                             {
                                 xtype: 'button',
-                                width: 150,
+                                width: 200,
                                 iconCls: 'delete-button-icon',
                                 text: 'Request Delete'
                             }
@@ -28,12 +31,12 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                     },
                     {
                         xtype: 'container',
-                        padding : '5 0 0 50',
+                        padding : '5 0 0 0',
                         layout: 'vbox',
                         items: [
                             {
                                 xtype: 'button',
-                                width: 150,
+                                width: 200,
                                 text: 'View in Scheduler',
                                 iconCls: 'find-button-icon'
                             }
@@ -41,12 +44,12 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                     },
                     {
                         xtype: 'container',
-                        padding : '5 0 0 50',
+                        padding : '5 0 0 0',
                         layout: 'vbox',
                         items: [
                             {
                                 xtype: 'button',
-                                width: 150,
+                                width: 200,
                                 text: 'Manage Group',
                                 iconCls: 'group-button-icon'
                             }
@@ -54,12 +57,12 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                     },
                     {
                         xtype: 'container',
-                        padding : '5 0 25 50',
+                        padding : '5 0 25 0',
                         layout: 'vbox',
                         items: [
                             {
                                 xtype: 'button',
-                                width: 150,
+                                width: 200,
                                 text: 'Manage Approvers',
                                 iconCls: 'user-button-icon'
                             }
@@ -71,20 +74,29 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                 xtype: 'panel',
                 title: 'Request Details',
                 collapsible: true,
-                layout: 'vbox',
+                collapseDirection: 'top',
+                layout: {
+                    type: 'vbox',
+                    align: 'center'
+                },
                 items: [
                     {
                         xtype: 'gridrequestdetails',
                         columnLines: false,
                         rowLines: false,
-                        height: 130,
+                        height: 150,
+                        autoScroll: true,
+                        scroll: 'vertical',
+                        flex: 1,
                         width: '100%'
                     },
                     {
                         xtype: 'formrequestdetails',
-                        height: 210,
-                        width: '100%',
-                        padding: '5 0 0 10'
+                        padding: '25 0 0 0',
+                        cls: 'top-border',
+                        flex: 2,
+                        width: '90%',
+                        padding: '5 0 0 0'
                     }
                 ]
             },
@@ -92,6 +104,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                 xtype: 'panel',
                 title: 'Balance Information',
                 collapsible: true,
+                collapseDirection: 'top',
                 layout: 'vbox',
                 items: [
                     {
@@ -107,6 +120,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformat
                 xtype: 'panel',
                 title: 'Reports',
                 collapsible: true,
+                collapseDirection: 'top',
                 layout: 'vbox',
                 items: [
                     {
