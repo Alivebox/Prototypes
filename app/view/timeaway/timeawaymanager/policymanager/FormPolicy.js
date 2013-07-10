@@ -140,6 +140,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
                             {
                                 xtype: 'fieldset',
                                 title: 'Carryover Schedule',
+                                width: 600,
                                 items: [
                                     {
                                         xtype: 'numberfield',
@@ -152,157 +153,17 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
                                         cls: 'top-border',
                                         items: [
                                             {
-                                                xtype: 'fieldcontainer',
-                                                defaultType: 'radiofield',
-                                                layout: 'vbox',
-                                                cls: 'rigth-border',
+                                                xtype: 'radiogroup',
+                                                columns: 1,
                                                 items: [
-                                                    {
-                                                        boxLabel: 'Daily'
-                                                    },
-                                                    {
-                                                        boxLabel: 'Weekly'
-                                                    },
-                                                    {
-                                                        boxLabel: 'Monthly'
-                                                    },
-                                                    {
-                                                        boxLabel: 'Yearly'
-                                                    }
+                                                    { boxLabel: 'Daily', name: 'rb', inputValue: '1', checked: true },
+                                                    { boxLabel: 'Weekly', name: 'rb', inputValue: '2' },
+                                                    { boxLabel: 'Monthly', name: 'rb', inputValue: '3' },
+                                                    { boxLabel: 'Yearly', name: 'rb', inputValue: '4' }
                                                 ]
                                             },
                                             {
-                                                xtype: 'container',
-                                                layout: 'vbox',
-                                                items: [
-                                                    {
-                                                        xtype: 'container',
-                                                        layout: 'hbox',
-                                                        padding: '5 0 0 5',
-                                                        items: [
-                                                            {
-                                                                xtype: 'label',
-                                                                text: 'Recur every',
-                                                                padding: '3 0 0 0'
-                                                            },
-                                                            {
-                                                                xtype: 'numberfield',
-                                                                width: 35,
-                                                                maxValue: 10,
-                                                                minValue: 1
-                                                            },
-                                                            {
-                                                                xtype: 'label',
-                                                                text: 'year(s)',
-                                                                padding: '3 0 0 0'
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        xtype: 'container',
-                                                        layout: 'hbox',
-                                                        padding: '5 0 0 10',
-                                                        items: [
-                                                            {
-                                                                xtype: 'radiofield',
-                                                                boxLabel: 'On',
-                                                                padding: '0 2 0 0'
-                                                            },
-                                                            {
-                                                                xtype:'combobox',
-                                                                editable:false,
-                                                                width: 75,
-                                                                value: 1,
-                                                                store:[
-                                                                    [1, 'January'],
-                                                                    [2, 'February'],
-                                                                    [3, 'March'],
-                                                                    [4, 'April'],
-                                                                    [5, 'May'],
-                                                                    [6, 'June'],
-                                                                    [7, 'July'],
-                                                                    [8, 'August'],
-                                                                    [9, 'September'],
-                                                                    [10, 'October'],
-                                                                    [11, 'November'],
-                                                                    [12, 'December']
-
-                                                                ]
-                                                            },
-                                                            {
-                                                                xtype: 'numberfield',
-                                                                width: 35,
-                                                                maxValue: 31,
-                                                                minValue: 1
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        xtype: 'container',
-                                                        layout: 'hbox',
-                                                        padding: '5 0 0 10',
-                                                        items: [
-                                                            {
-                                                                xtype: 'radiofield',
-                                                                boxLabel: 'On the',
-                                                                padding: '0 2 0 0'
-                                                            },
-                                                            {
-                                                                xtype:'combobox',
-                                                                editable:false,
-                                                                width: 75,
-                                                                value: 1,
-                                                                store:[
-                                                                    [1, 'First'],
-                                                                    [2, 'Second'],
-                                                                    [3, 'Third'],
-                                                                    [4, 'Fourth']
-
-                                                                ]
-                                                            },
-                                                            {
-                                                                xtype:'combobox',
-                                                                editable:false,
-                                                                width: 75,
-                                                                value: 1,
-                                                                store:[
-                                                                    [1, 'Monday'],
-                                                                    [2, 'Thursday'],
-                                                                    [3, 'Wednesday'],
-                                                                    [4, 'Thuesday'],
-                                                                    [5, 'Friday']
-
-                                                                ]
-                                                            },
-                                                            {
-                                                                xtype: 'label',
-                                                                text: 'of',
-                                                                padding: '3 2 0 2'
-                                                            },
-                                                            {
-                                                                xtype:'combobox',
-                                                                editable:false,
-                                                                width: 75,
-                                                                value: 1,
-                                                                store:[
-                                                                    [1, 'January'],
-                                                                    [2, 'February'],
-                                                                    [3, 'March'],
-                                                                    [4, 'April'],
-                                                                    [5, 'May'],
-                                                                    [6, 'June'],
-                                                                    [7, 'July'],
-                                                                    [8, 'August'],
-                                                                    [9, 'September'],
-                                                                    [10, 'October'],
-                                                                    [11, 'November'],
-                                                                    [12, 'December']
-
-                                                                ]
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
+                                                xtype: 'dailySchedule'
                                             }
                                        ]
                                     }
