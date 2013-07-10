@@ -6,44 +6,44 @@
  */
 Ext.Loader.addClassPathMappings({
   "Prototypes": "../../app",
-  "Mercury.ux.view.TreeTabViewsContainer": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.core.LocalizationManager": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.core.Events": "../../resources/js/mercuryext.min-1.0.0.js",
+  "Mercury.ux.view.TreeTabViewsContainer": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.core.LocalizationManager": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.core.Events": "../../resources/js/mercuryext-1.0.0.js",
   "Ext.rtl.EventObjectImpl": "../../ext/src/rtl/EventObject.js",
-  "Mercury.core.ErrorsManager": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.core.SecurityManager": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.container.IFrameContainer": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.util.FileLoader": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.Main": "../../resources/js/mercuryext.min-1.0.0.js",
+  "Mercury.core.ErrorsManager": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.core.SecurityManager": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.container.IFrameContainer": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.util.FileLoader": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.Main": "../../resources/js/mercuryext-1.0.0.js",
   "Ext": "../../ext/src",
-  "Mercury.core.Defaults": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.core.ViewsManagerUI": "../../resources/js/mercuryext.min-1.0.0.js",
+  "Mercury.core.Defaults": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.core.ViewsManagerUI": "../../resources/js/mercuryext-1.0.0.js",
   "Prototypes.controller.timeaway.TimeAwayManagerController": "../../app/controller/timeAway/TimeAwayManagerController.js",
-  "Mercury.ux.form.AutoCompleteBox": "../../resources/js/mercuryext.min-1.0.0.js",
+  "Mercury.ux.form.AutoCompleteBox": "../../resources/js/mercuryext-1.0.0.js",
   "Prototypes.controller.timeaway.TimeAwayController": "../../app/controller/timeAway/TimeAwayController.js",
-  "Mercury.util.ObjectUtil": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.core.ViewItem": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.util.MultipleScriptInjector": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.util.HotkeysUtil": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.util.StylesUtil": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.view.BaseViewsContainer": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.core.ViewsManager": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.util.EnhancedComponentDragger": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.view.TreeViewsContainer": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.form.EnhancedDatePicker": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.form.DoubleEnhancedDatePicker": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.form.FormContainer": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.popup.ErrorWindow": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.view.CardViewsContainer": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.container.TabContainer": "../../resources/js/mercuryext.min-1.0.0.js",
+  "Mercury.util.ObjectUtil": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.core.ViewItem": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.util.MultipleScriptInjector": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.util.HotkeysUtil": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.util.StylesUtil": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.view.BaseViewsContainer": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.core.ViewsManager": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.util.EnhancedComponentDragger": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.view.TreeViewsContainer": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.form.EnhancedDatePicker": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.form.DoubleEnhancedDatePicker": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.form.FormContainer": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.popup.ErrorWindow": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.view.CardViewsContainer": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.container.TabContainer": "../../resources/js/mercuryext-1.0.0.js",
   " Ext.Msg": "../../ext/src/window/MessageBox.js",
-  "Mercury.ux.data.RestProxy": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.util.MD5Util": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.util.DragSelectionUtil": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.view.SimpleViewsContainer": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.view.TabViewsContainer": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.ux.data.RestJsonReader": "../../resources/js/mercuryext.min-1.0.0.js",
-  "Mercury.core.EventBus": "../../resources/js/mercuryext.min-1.0.0.js"
+  "Mercury.ux.data.RestProxy": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.util.MD5Util": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.util.DragSelectionUtil": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.view.SimpleViewsContainer": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.view.TabViewsContainer": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.ux.data.RestJsonReader": "../../resources/js/mercuryext-1.0.0.js",
+  "Mercury.core.EventBus": "../../resources/js/mercuryext-1.0.0.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
   "Prototypes.ux.NestedGrid": [],
@@ -51,8 +51,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "Prototypes.view.timeaway.timeawayrequest.graphical.ViewAvailability": [],
   "Prototypes.view.project.ProjectSummaryRightForm": [],
   "Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalAvailabilityTool": [],
-  "Mercury.core.ErrorsManager": [],
   "Prototypes.view.admin.services.categorytype.CategoryTypePopUp": [],
+  "Mercury.core.ErrorsManager": [],
   "Prototypes.view.vendorscustomers.AdvancedSearch": [],
   "Prototypes.view.order.summary.OrderSummaryContainer": [],
   "Prototypes.view.admin.systemadmin.useradmin.useraccount.GridUserAccount": [],
@@ -62,70 +62,81 @@ Ext.ClassManager.addNameAlternateMappings({
   "Prototypes.controller.admin.systemadmin.useradmin.UserMaintenanceController": [],
   "Prototypes.view.admin.packages.summary.SummaryPopUp": [],
   "Ext.ux.grid.menu.ListMenu": [],
+  "Prototypes.view.vendorscustomers.summary.GridSummaryRateCards": [],
   "Prototypes.controller.admin.services.ServicesController": [],
   "Prototypes.view.admin.services.categorytype.FormCategoryType": [],
   "Prototypes.controller.order.summary.OrderSummaryController": [],
   "Mercury.ux.form.DoubleEnhancedDatePicker": [],
   "Prototypes.model.order.admin.ShareType": [],
   "Mercury.ux.view.CardViewsContainer": [],
+  "Prototypes.view.vendorscustomers.summary.DetailedSummaryInfoContainer": [],
   "Prototypes.controller.report.ReportLibraryController": [],
-  "Prototypes.view.timeaway.timeawayrequest.graphical.ApprovedRequestDetails": [],
   "Prototypes.ux.SpecialTextArea": [],
   "Ext.ux.PreviewPlugin": [],
+  "Prototypes.view.timeaway.timeawayrequest.graphical.ApprovedRequestDetails": [],
   "Ext.ux.ajax.SimXhr": [],
   "Prototypes.model.timeaway.Request": [],
   "Ext.ux.CellDragDrop": [],
   "Ext.ux.ajax.Simlet": [],
-  "Ext.ux.SlidingPager": [],
   "Prototypes.view.resources.positions.PositionPopUp": [],
+  "Ext.ux.SlidingPager": [],
+  "Prototypes.view.vendorscustomers.summary.GridSummaryLinkedEntities": [],
   "Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerTabContainer": [],
   "Ext.ux.TabReorderer": [],
-  "Ext.ux.grid.filter.NumericFilter": [],
   "Prototypes.view.resources.MainResourcePositionContainer": [],
+  "Ext.ux.grid.filter.NumericFilter": [],
   "Prototypes.view.admin.services.GridServiceTypes": [],
   "Ext.ux.event.Recorder": [],
   "Prototypes.util.VTypesOverrides": [],
-  "Prototypes.view.admin.packages.Packages": [],
   "Prototypes.view.resources.positions.FormResoucesPositions": [],
+  "Prototypes.view.admin.packages.Packages": [],
+  "Prototypes.view.report.reportLibrary.MainReportLibraryContainer": [],
   "Prototypes.view.timeaway.timeawayrequest.summaryinformation.BalanceProfile": [],
   "Prototypes.model.admin.services.Service": [],
-  "Prototypes.view.report.reportLibrary.MainReportLibraryContainer": [],
   "Prototypes.model.admin.systemadmin.useradmin.UserAccount": [],
-  "Prototypes.view.timeaway.MainTimeAwayManagerContainer": [],
-  "Ext.ux.grid.filter.BooleanFilter": [],
+  "Prototypes.controller.elementcatalog.TreeMenuController": [],
   "Prototypes.view.project.ProjectSummaryTab": [],
+  "Ext.ux.grid.filter.BooleanFilter": [],
+  "Prototypes.view.timeaway.MainTimeAwayManagerContainer": [],
   "Prototypes.view.selfservice.importwizard.PreviewFile": [],
+  "Prototypes.view.elementcatalog.menu.Details": [],
   "Prototypes.store.report.DocumentLibraries": [],
+  "Prototypes.view.elementcatalog.menu.Menu": [],
+  "Prototypes.view.elementcatalog.Viewport": [],
   "Ext.ux.IFrame": [],
   "Prototypes.view.vendorscustomers.GridCustomerCenter": [],
   "Prototypes.view.timeaway.timeawayrequest.summaryinformation.GridRequestHistory": [],
   "Mercury.util.HotkeysUtil": [],
-  "Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalGridContainer": [],
   "Ext.ux.form.SearchField": [],
+  "Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalGridContainer": [],
   "Ext.ux.dd.CellFieldDropZone": [],
+  "Prototypes.view.project.customerproject.CustomerVendorGridOrders": [],
   "Mercury.ux.form.FormContainer": [],
   "Mercury.ux.container.TabContainer": [],
-  "Prototypes.view.project.customerproject.CustomerVendorGridOrders": [],
   "Prototypes.view.vendorscustomers.MainVendorCustomerContainer": [],
   "Prototypes.store.report.FolderLibraries": [],
   "Prototypes.view.vendorscustomers.GridSavedSearches": [],
-  "Prototypes.view.vendorscustomers.WindowNewAddress": [],
+  "Prototypes.ux.AddressContactContainer": [],
+  "Prototypes.store.elementcatalog.ItemCarts": [],
   "Prototypes.controller.admin.packages.PackagesController": [],
   "Mercury.ux.view.TreeTabViewsContainer": [],
   "Prototypes.model.timeaway.timeawaymanager.RequestDetails": [],
   "Ext.ux.FieldReplicator": [],
   "Prototypes.controller.resources.positions.ResourcesController": [],
+  "Prototypes.view.elementcatalog.cart.Cart": [],
+  "Prototypes.ux.FlagsCombobox": [],
   "Ext.ux.grid.filter.ListFilter": [],
   "Prototypes.view.vendorscustomers.GridCustomerContacts": [],
   "Prototypes.view.timeaway.timeawaymanager.GridGroupPolicies": [],
   "Prototypes.view.timeaway.timeawaymanager.policymanager.GridGroupRestrictions": [],
   "Ext.ux.dd.PanelFieldDragZone": [],
-  "Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerContainer": [],
   "Ext.ux.GMapPanel": [],
+  "Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerContainer": [],
+  "Prototypes.view.vendorscustomers.summary.AdittionInfoSummary": [],
   "Prototypes.view.timeaway.timeawaymanager.specialdate.SpecialDatesManager": [],
   "Ext.ux.GroupTabPanel": [],
-  "Ext.ux.statusbar.ValidationStatus": [],
   "Prototypes.view.project.customerproject.VendorAdvanceSearch": [],
+  "Ext.ux.statusbar.ValidationStatus": [],
   "Mercury.ux.form.EnhancedDatePicker": [],
   "Ext.ux.layout.Center": [],
   "Ext.ux.DataView.Animated": [],
@@ -133,31 +144,39 @@ Ext.ClassManager.addNameAlternateMappings({
   "Prototypes.view.timeaway.timeawaymanager.summaryinfo.FormRequestDetails": [],
   "Prototypes.controller.project.VendorTradesController": [],
   "Mercury.core.EventBus": [],
+  "Prototypes.store.elementcatalog.Items": [],
   "Prototypes.store.order.admin.ElementGroups": [],
-  "Prototypes.view.timeaway.timeawaymanager.specialdate.UpcomingEvent": [],
   "Ext.ux.statusbar.StatusBar": [
     "Ext.ux.StatusBar"
   ],
+  "Prototypes.view.timeaway.timeawaymanager.specialdate.UpcomingEvent": [],
   "Prototypes.view.order.admin.MainOrderAdminElementGroupsContainer": [],
   "Mercury.core.LocalizationManager": [],
   "Prototypes.model.admin.packages.PackageSummary": [],
+  "Prototypes.view.vendorscustomers.summary.MainSummaryContainer": [],
   "Prototypes.view.report.documentLibrary.MainDocumentLibraryContainer": [],
+  "Prototypes.controller.elementcatalog.ItemsDisplayController": [],
   "Prototypes.store.admin.services.ServiceTypes": [],
   "Prototypes.model.report.Category": [],
-  "Ext.ux.event.Player": [],
   "Prototypes.view.order.admin.FormOrderAdminElementGroups": [],
+  "Prototypes.view.elementcatalog.item.ItemsGrid": [],
+  "Ext.ux.event.Player": [],
+  "Prototypes.view.vendorscustomers.summary.SummaryAccounting": [],
   "Prototypes.store.report.Categories": [],
   "Mercury.core.ViewsManagerUI": [],
   "Ext.ux.ToolbarDroppable": [],
   "Prototypes.view.project.ProjectSummaryRevenueContainer": [],
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.MonthlySchedule": [],
   "Ext.ux.DataView.Draggable": [],
-  "Prototypes.view.timeaway.executivedashboard.ExecutiveDashboardContainer": [],
+  "Prototypes.model.elementcatalog.Item": [],
   "Ext.ux.TabCloseMenu": [],
+  "Prototypes.view.timeaway.executivedashboard.ExecutiveDashboardContainer": [],
   "Mercury.ux.view.BaseViewsContainer": [],
   "Mercury.ux.util.EnhancedComponentDragger": [],
+  "Prototypes.view.vendorscustomers.summary.GeneralSummaryInfoContainer": [],
   "Prototypes.controller.admin.systemadmin.useradmin.SecurityAccessLevelController": [],
-  "Ext.ux.grid.filter.DateTimeFilter": [],
   "Prototypes.view.admin.systemadmin.useradmin.securityaccesslevel.FormSecurityLevel": [],
+  "Ext.ux.grid.filter.DateTimeFilter": [],
   "Ext.ux.form.ItemSelector": [
     "Ext.ux.ItemSelector"
   ],
@@ -167,14 +186,17 @@ Ext.ClassManager.addNameAlternateMappings({
   "Mercury.ux.view.TabViewsContainer": [],
   "Ext.ux.grid.FiltersFeature": [],
   "Prototypes.store.order.admin.ShareTypes": [],
+  "Prototypes.controller.elementcatalog.CartController": [],
+  "Prototypes.view.vendorscustomers.NotesListView": [],
   "Prototypes.Application": [],
-  "Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail": [],
   "Prototypes.view.admin.services.Services": [],
+  "Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail": [],
   "Ext.ux.ajax.DataSimlet": [],
   "Ext.ux.grid.TransformGrid": [],
   "Prototypes.model.report.DocumentLibrary": [],
   "Prototypes.store.admin.systemadmin.useradmin.UserAccounts": [],
   "Prototypes.controller.project.ProjectController": [],
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.DailySchedule": [],
   "Mercury.Main": [],
   "Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter": [],
   "Ext.ux.ajax.XmlSimlet": [],
@@ -182,23 +204,29 @@ Ext.ClassManager.addNameAlternateMappings({
   "Prototypes.model.admin.packages.Package": [],
   "Prototypes.view.project.ProjectSummary": [],
   "Prototypes.view.timeaway.timeawaymanager.policymanager.GridGroupsRestrictionsToolbar": [],
+  "Prototypes.view.vendorscustomers.VendorCustomerContainer": [],
   "Prototypes.view.timeaway.timeawaymanager.BlockDates": [],
   "Prototypes.view.timeaway.timeawaymanager.policymanager.GridPolicyManager": [],
-  "Prototypes.view.timeaway.timeawayrequest.summaryinformation.SummaryRequestInformation": [],
+  "Prototypes.view.elementcatalog.menu.TreeMenu": [],
+  "Prototypes.view.report.documentLibrary.FormDocumentLibrary": [],
   "Prototypes.ux.CommentsContainer": [],
   "Ext.ux.form.MultiSelect": [
     "Ext.ux.Multiselect"
   ],
-  "Prototypes.view.report.documentLibrary.FormDocumentLibrary": [],
+  "Prototypes.view.timeaway.timeawayrequest.summaryinformation.SummaryRequestInformation": [],
   "Prototypes.store.admin.systemadmin.useradmin.SecurityLevels": [],
-  "Prototypes.ux.UxDependencies": [],
   "Mercury.core.ViewsManager": [],
-  "Prototypes.view.timeaway.timeawayrequest.summaryinformation.GridBalanceProfile": [],
+  "Prototypes.ux.UxDependencies": [],
+  "Prototypes.view.vendorscustomers.summary.GridSummaryDocuments": [],
+  "Prototypes.view.timeaway.timeawaymanager.TimeAwayGridContainer": [],
   "Prototypes.view.layouttest.LayoutTest": [],
-  "Prototypes.view.timeaway.timeawaymanager.GridTimeAwayRequest": [],
+  "Prototypes.ux.PhoneContactContainer": [],
+  "Prototypes.view.timeaway.timeawayrequest.summaryinformation.GridBalanceProfile": [],
   "Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy": [],
-  "Ext.ux.event.RecorderManager": [],
+  "Prototypes.view.timeaway.timeawaymanager.GridTimeAwayRequest": [],
   "Prototypes.view.project.ProjectSummaryLeftForm": [],
+  "Ext.ux.event.RecorderManager": [],
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.YearlySchedule": [],
   "Ext.ux.ProgressBarPager": [],
   "Prototypes.model.report.GroupLibrary": [],
   "Prototypes.view.order.admin.GridOrderAdminElementGroups": [],
@@ -206,27 +234,29 @@ Ext.ClassManager.addNameAlternateMappings({
   "Mercury.core.Events": [],
   "Prototypes.model.report.TypeLibrary": [],
   "Prototypes.view.timeaway.timeawayrequest.TimeAwayContainer": [],
+  "Prototypes.view.vendorscustomers.summary.GridSummaryElements": [],
   "Prototypes.view.selfservice.importwizard.DateFieldMapping": [],
   "Prototypes.view.admin.packages.summary.FormPackageSummary": [],
   "Prototypes.view.admin.packages.GridPackages": [],
-  "Prototypes.view.timeaway.timeawaymanager.summaryinfo.GridRequestDetails": [],
   "Prototypes.ux.LinkButton": [],
+  "Prototypes.view.timeaway.timeawaymanager.summaryinfo.GridRequestDetails": [],
+  "Prototypes.view.order.admin.OrderAdminElementGroupsPopUp": [],
   "Prototypes.ux.UnsortedList": [],
   "Ext.ux.ajax.SimManager": [],
-  "Prototypes.view.order.admin.OrderAdminElementGroupsPopUp": [],
   "Mercury.ux.form.AutoCompleteBox": [],
   "Prototypes.store.admin.packages.Packages": [],
   "Prototypes.controller.timeaway.TimeAwayController": [],
   "Ext.ux.TabScrollerMenu": [],
   "Mercury.core.ViewItem": [],
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.WeeklySchedule": [],
   "Prototypes.store.timeaway.Requests": [],
   "Prototypes.view.timeaway.timeawaymanager.summaryinfo.GridBalanceInformation": [],
   "Prototypes.view.admin.services.category.FormCategory": [],
+  "Prototypes.view.admin.services.GridServices": [],
   "Mercury.ux.view.TreeViewsContainer": [],
   "Ext.ux.LiveSearchGridPanel": [],
-  "Prototypes.view.admin.services.GridServices": [],
-  "Prototypes.view.timeaway.timeawaymanager.policymanager.PopUpPolicyManager": [],
   "Ext.ux.grid.filter.DateFilter": [],
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.PopUpPolicyManager": [],
   "Ext.ux.TreePicker": [],
   "Prototypes.model.admin.services.ServiceType": [],
   "Prototypes.view.admin.services.category.CategoryPopUp": [],
@@ -237,8 +267,9 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.data.PagingMemoryProxy"
   ],
   "Ext.ux.BoxReorderer": [],
-  "Ext.ux.grid.filter.Filter": [],
+  "Prototypes.model.elementcatalog.ItemCart": [],
   "Prototypes.view.admin.systemadmin.useradmin.useraccount.UserAccountPopUp": [],
+  "Ext.ux.grid.filter.Filter": [],
   "Ext.ux.GroupTabRenderer": [],
   "Prototypes.view.timeaway.timeawaymanager.policymanager.ManagePolicyContainer": [],
   "Prototypes.ux.ColoredSquare": [],
@@ -248,9 +279,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Prototypes.model.admin.systemadmin.useradmin.SecurityLevel": [],
   "Prototypes.view.resources.positions.FormCheckResoucesPositions": [],
   "Prototypes.view.admin.systemadmin.useradmin.MainUserMaintenanceContainer": [],
-  "Prototypes.view.vendorscustomers.MainSummaryContainer": [],
   "Prototypes.view.order.summary.DetailInformation": [],
-  "Prototypes.view.vendorscustomers.GridAdditionalAddresses": [],
   "Prototypes.view.report.documentLibrary.DocumentLibraryPopUp": [],
   "Ext.ux.DataView.LabelEditor": [],
   "Ext.ux.grid.filter.StringFilter": [],
@@ -258,20 +287,21 @@ Ext.ClassManager.addNameAlternateMappings({
   "Mercury.ux.view.SimpleViewsContainer": [],
   "Mercury.util.DragSelectionUtil": [],
   "Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformation": [],
-  "Mercury.ux.data.RestJsonReader": [],
+  "Prototypes.view.elementcatalog.cart.CartGrid": [],
   "Prototypes.view.admin.systemadmin.useradmin.securityaccesslevel.SecurityLevelPopUp": [],
+  "Mercury.ux.data.RestJsonReader": [],
   "Prototypes.view.selfservice.importwizard.ImportWizardCardContainer": [],
   "Prototypes.view.project.ProjectSummaryForm": [],
   "Prototypes.view.selfservice.importwizard.PreviewImport": [],
   "Prototypes.view.project.contacts.ProjectSummaryContactsContainer": [],
   "Prototypes.view.selfservice.importwizard.ChooseFile": [],
   "Prototypes.store.report.TypeLibraries": [],
-  "Prototypes.model.resources.positions.Position": [],
   "Prototypes.view.admin.systemadmin.useradmin.MainSecurityAccessLevelsContainer": [],
+  "Prototypes.model.resources.positions.Position": [],
   "Prototypes.store.resources.positions.Positions": [],
   "Mercury.ux.container.IFrameContainer": [],
-  "Ext.ux.grid.menu.RangeMenu": [],
   "Prototypes.view.project.customerproject.VendorTradesContainer": [],
+  "Ext.ux.grid.menu.RangeMenu": [],
   "Ext.ux.RowExpander": [],
   "Mercury.util.FileLoader": [],
   "Prototypes.store.admin.services.Services": [],
@@ -286,15 +316,18 @@ Ext.ClassManager.addNameAlternateMappings({
   "Mercury.util.StylesUtil": [],
   "Prototypes.view.project.customerproject.CustomerVendorGridContacts": [],
   "Prototypes.view.timeaway.executivedashboard.SearchExecutiveDashboard": [],
-  "Prototypes.controller.report.DocumentLibraryController": [],
-  "Prototypes.view.report.documentLibrary.GridDocumentLibrary": [],
+  "Prototypes.view.vendorscustomers.summary.SummaryTabContainer": [],
   "Prototypes.view.resources.positions.GridResourcesPositions": [],
+  "Prototypes.view.report.documentLibrary.GridDocumentLibrary": [],
+  "Prototypes.controller.report.DocumentLibraryController": [],
   "Prototypes.store.report.GroupLibraries": [],
   "Mercury.ux.popup.ErrorWindow": [],
   "Ext.ux.DataTip": [],
-  "Ext.ux.ajax.JsonSimlet": [],
   "Prototypes.view.project.customerproject.CustomerVendorGrid": [],
+  "Prototypes.view.elementcatalog.item.ItemsDisplay": [],
+  "Ext.ux.ajax.JsonSimlet": [],
   "Prototypes.view.project.ProjectSummaryHeader": [],
+  "Prototypes.view.vendorscustomers.VendorCustomerSidePanel": [],
   "Prototypes.model.report.FolderLibrary": [],
   "Prototypes.view.project.ProjectSummaryOptions": []
 });
@@ -312,10 +345,10 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalAvailabilityTool": [
     "widget.graphicalavailabilitytool"
   ],
-  "Mercury.core.ErrorsManager": [],
   "Prototypes.view.admin.services.categorytype.CategoryTypePopUp": [
     "widget.categorytypepopup"
   ],
+  "Mercury.core.ErrorsManager": [],
   "Prototypes.view.vendorscustomers.AdvancedSearch": [
     "widget.advancedsearch"
   ],
@@ -335,6 +368,9 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.summarypopup"
   ],
   "Ext.ux.grid.menu.ListMenu": [],
+  "Prototypes.view.vendorscustomers.summary.GridSummaryRateCards": [
+    "widget.gridsummaryratecards"
+  ],
   "Prototypes.controller.admin.services.ServicesController": [],
   "Prototypes.view.admin.services.categorytype.FormCategoryType": [
     "widget.formcategorytype"
@@ -347,15 +383,18 @@ Ext.ClassManager.addNameAliasMappings({
   "Mercury.ux.view.CardViewsContainer": [
     "widget.cardviewscontainer"
   ],
-  "Prototypes.controller.report.ReportLibraryController": [],
-  "Prototypes.view.timeaway.timeawayrequest.graphical.ApprovedRequestDetails": [
-    "widget.approvedrequestdetails"
+  "Prototypes.view.vendorscustomers.summary.DetailedSummaryInfoContainer": [
+    "widget.detailedsummaryinfocontainer"
   ],
+  "Prototypes.controller.report.ReportLibraryController": [],
   "Prototypes.ux.SpecialTextArea": [
     "widget.specialtextarea"
   ],
   "Ext.ux.PreviewPlugin": [
     "plugin.preview"
+  ],
+  "Prototypes.view.timeaway.timeawayrequest.graphical.ApprovedRequestDetails": [
+    "widget.approvedrequestdetails"
   ],
   "Ext.ux.ajax.SimXhr": [],
   "Prototypes.model.timeaway.Request": [],
@@ -365,52 +404,63 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.ajax.Simlet": [
     "simlet.basic"
   ],
-  "Ext.ux.SlidingPager": [],
   "Prototypes.view.resources.positions.PositionPopUp": [
     "widget.positionpopup"
+  ],
+  "Ext.ux.SlidingPager": [],
+  "Prototypes.view.vendorscustomers.summary.GridSummaryLinkedEntities": [
+    "widget.gridsummarylinkedentities"
   ],
   "Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerTabContainer": [
     "widget.timeawaymanagertabcontainer"
   ],
   "Ext.ux.TabReorderer": [],
-  "Ext.ux.grid.filter.NumericFilter": [
-    "gridfilter.numeric"
-  ],
   "Prototypes.view.resources.MainResourcePositionContainer": [
     "widget.mainresourcepositioncontainer"
+  ],
+  "Ext.ux.grid.filter.NumericFilter": [
+    "gridfilter.numeric"
   ],
   "Prototypes.view.admin.services.GridServiceTypes": [
     "widget.gridservicetypes"
   ],
   "Ext.ux.event.Recorder": [],
   "Prototypes.util.VTypesOverrides": [],
+  "Prototypes.view.resources.positions.FormResoucesPositions": [
+    "widget.formresoucespositions"
+  ],
   "Prototypes.view.admin.packages.Packages": [
     "widget.adminpackages"
   ],
-  "Prototypes.view.resources.positions.FormResoucesPositions": [
-    "widget.formresoucespositions"
+  "Prototypes.view.report.reportLibrary.MainReportLibraryContainer": [
+    "widget.mainreportlibrarycontainer"
   ],
   "Prototypes.view.timeaway.timeawayrequest.summaryinformation.BalanceProfile": [
     "widget.balanceprofile"
   ],
   "Prototypes.model.admin.services.Service": [],
-  "Prototypes.view.report.reportLibrary.MainReportLibraryContainer": [
-    "widget.mainreportlibrarycontainer"
-  ],
   "Prototypes.model.admin.systemadmin.useradmin.UserAccount": [],
-  "Prototypes.view.timeaway.MainTimeAwayManagerContainer": [
-    "widget.maintimeawaymanagercontainer"
+  "Prototypes.controller.elementcatalog.TreeMenuController": [],
+  "Prototypes.view.project.ProjectSummaryTab": [
+    "widget.projectsummarytab"
   ],
   "Ext.ux.grid.filter.BooleanFilter": [
     "gridfilter.boolean"
   ],
-  "Prototypes.view.project.ProjectSummaryTab": [
-    "widget.projectsummarytab"
+  "Prototypes.view.timeaway.MainTimeAwayManagerContainer": [
+    "widget.maintimeawaymanagercontainer"
   ],
   "Prototypes.view.selfservice.importwizard.PreviewFile": [
     "widget.previewfile"
   ],
+  "Prototypes.view.elementcatalog.menu.Details": [
+    "widget.details"
+  ],
   "Prototypes.store.report.DocumentLibraries": [],
+  "Prototypes.view.elementcatalog.menu.Menu": [
+    "widget.menuview"
+  ],
+  "Prototypes.view.elementcatalog.Viewport": [],
   "Ext.ux.IFrame": [
     "widget.uxiframe"
   ],
@@ -421,21 +471,21 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.gridrequesthistory"
   ],
   "Mercury.util.HotkeysUtil": [],
-  "Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalGridContainer": [
-    "widget.graphicalgridcontainer"
-  ],
   "Ext.ux.form.SearchField": [
     "widget.searchfield"
   ],
+  "Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalGridContainer": [
+    "widget.graphicalgridcontainer"
+  ],
   "Ext.ux.dd.CellFieldDropZone": [],
+  "Prototypes.view.project.customerproject.CustomerVendorGridOrders": [
+    "widget.customervendorgridorders"
+  ],
   "Mercury.ux.form.FormContainer": [
     "widget.formcontainer"
   ],
   "Mercury.ux.container.TabContainer": [
     "widget.tabcontainer"
-  ],
-  "Prototypes.view.project.customerproject.CustomerVendorGridOrders": [
-    "widget.customervendorgridorders"
   ],
   "Prototypes.view.vendorscustomers.MainVendorCustomerContainer": [
     "widget.mainvendorcustomercontainer"
@@ -444,9 +494,10 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.vendorscustomers.GridSavedSearches": [
     "widget.gridsavedsearches"
   ],
-  "Prototypes.view.vendorscustomers.WindowNewAddress": [
-    "widget.windownewaddress"
+  "Prototypes.ux.AddressContactContainer": [
+    "widget.addresscontactcontainer"
   ],
+  "Prototypes.store.elementcatalog.ItemCarts": [],
   "Prototypes.controller.admin.packages.PackagesController": [],
   "Mercury.ux.view.TreeTabViewsContainer": [
     "widget.treetabviewscontainer"
@@ -454,6 +505,12 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.model.timeaway.timeawaymanager.RequestDetails": [],
   "Ext.ux.FieldReplicator": [],
   "Prototypes.controller.resources.positions.ResourcesController": [],
+  "Prototypes.view.elementcatalog.cart.Cart": [
+    "widget.cart"
+  ],
+  "Prototypes.ux.FlagsCombobox": [
+    "widget.flagscombobox"
+  ],
   "Ext.ux.grid.filter.ListFilter": [
     "gridfilter.list"
   ],
@@ -467,11 +524,14 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.gridgrouprestrictions"
   ],
   "Ext.ux.dd.PanelFieldDragZone": [],
+  "Ext.ux.GMapPanel": [
+    "widget.gmappanel"
+  ],
   "Prototypes.view.timeaway.timeawaymanager.TimeAwayManagerContainer": [
     "widget.timeawaymanagercontainer"
   ],
-  "Ext.ux.GMapPanel": [
-    "widget.gmappanel"
+  "Prototypes.view.vendorscustomers.summary.AdittionInfoSummary": [
+    "widget.adittioninfosummary"
   ],
   "Prototypes.view.timeaway.timeawaymanager.specialdate.SpecialDatesManager": [
     "widget.specialdatesmanager"
@@ -479,10 +539,10 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.GroupTabPanel": [
     "widget.grouptabpanel"
   ],
-  "Ext.ux.statusbar.ValidationStatus": [],
   "Prototypes.view.project.customerproject.VendorAdvanceSearch": [
     "widget.vendoradvancesearch"
   ],
+  "Ext.ux.statusbar.ValidationStatus": [],
   "Mercury.ux.form.EnhancedDatePicker": [
     "widget.enhanceddatepicker"
   ],
@@ -496,26 +556,37 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "Prototypes.controller.project.VendorTradesController": [],
   "Mercury.core.EventBus": [],
+  "Prototypes.store.elementcatalog.Items": [],
   "Prototypes.store.order.admin.ElementGroups": [],
-  "Prototypes.view.timeaway.timeawaymanager.specialdate.UpcomingEvent": [
-    "widget.upcomingevent"
-  ],
   "Ext.ux.statusbar.StatusBar": [
     "widget.statusbar"
+  ],
+  "Prototypes.view.timeaway.timeawaymanager.specialdate.UpcomingEvent": [
+    "widget.upcomingevent"
   ],
   "Prototypes.view.order.admin.MainOrderAdminElementGroupsContainer": [
     "widget.mainorderadminelementgroupscontainer"
   ],
   "Mercury.core.LocalizationManager": [],
   "Prototypes.model.admin.packages.PackageSummary": [],
+  "Prototypes.view.vendorscustomers.summary.MainSummaryContainer": [
+    "widget.mainsummarycontainer"
+  ],
   "Prototypes.view.report.documentLibrary.MainDocumentLibraryContainer": [
     "widget.maindocumentlibrarycontainer"
   ],
+  "Prototypes.controller.elementcatalog.ItemsDisplayController": [],
   "Prototypes.store.admin.services.ServiceTypes": [],
   "Prototypes.model.report.Category": [],
-  "Ext.ux.event.Player": [],
   "Prototypes.view.order.admin.FormOrderAdminElementGroups": [
     "widget.formorderadminelementgroups"
+  ],
+  "Prototypes.view.elementcatalog.item.ItemsGrid": [
+    "widget.itemsgrid"
+  ],
+  "Ext.ux.event.Player": [],
+  "Prototypes.view.vendorscustomers.summary.SummaryAccounting": [
+    "widget.summaryaccounting"
   ],
   "Prototypes.store.report.Categories": [],
   "Mercury.core.ViewsManagerUI": [],
@@ -523,12 +594,16 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.project.ProjectSummaryRevenueContainer": [
     "widget.projectsummaryrevenuecontainer"
   ],
-  "Ext.ux.DataView.Draggable": [],
-  "Prototypes.view.timeaway.executivedashboard.ExecutiveDashboardContainer": [
-    "widget.executivedashboardcontainer"
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.MonthlySchedule": [
+    "widget.monthlySchedule"
   ],
+  "Ext.ux.DataView.Draggable": [],
+  "Prototypes.model.elementcatalog.Item": [],
   "Ext.ux.TabCloseMenu": [
     "plugin.tabclosemenu"
+  ],
+  "Prototypes.view.timeaway.executivedashboard.ExecutiveDashboardContainer": [
+    "widget.executivedashboardcontainer"
   ],
   "Mercury.ux.view.BaseViewsContainer": [
     "widget.baseviewscontainer"
@@ -536,12 +611,15 @@ Ext.ClassManager.addNameAliasMappings({
   "Mercury.ux.util.EnhancedComponentDragger": [
     "widget.enhancedcomponentdragger"
   ],
-  "Prototypes.controller.admin.systemadmin.useradmin.SecurityAccessLevelController": [],
-  "Ext.ux.grid.filter.DateTimeFilter": [
-    "gridfilter.datetime"
+  "Prototypes.view.vendorscustomers.summary.GeneralSummaryInfoContainer": [
+    "widget.generalsummaryinfocontainer"
   ],
+  "Prototypes.controller.admin.systemadmin.useradmin.SecurityAccessLevelController": [],
   "Prototypes.view.admin.systemadmin.useradmin.securityaccesslevel.FormSecurityLevel": [
     "widget.formsecuritylevel"
+  ],
+  "Ext.ux.grid.filter.DateTimeFilter": [
+    "gridfilter.datetime"
   ],
   "Ext.ux.form.ItemSelector": [
     "widget.itemselector",
@@ -559,18 +637,25 @@ Ext.ClassManager.addNameAliasMappings({
     "feature.filters"
   ],
   "Prototypes.store.order.admin.ShareTypes": [],
-  "Prototypes.Application": [],
-  "Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail": [
-    "widget.requestdetail"
+  "Prototypes.controller.elementcatalog.CartController": [],
+  "Prototypes.view.vendorscustomers.NotesListView": [
+    "widget.noteslistview"
   ],
+  "Prototypes.Application": [],
   "Prototypes.view.admin.services.Services": [
     "widget.adminservices"
+  ],
+  "Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail": [
+    "widget.requestdetail"
   ],
   "Ext.ux.ajax.DataSimlet": [],
   "Ext.ux.grid.TransformGrid": [],
   "Prototypes.model.report.DocumentLibrary": [],
   "Prototypes.store.admin.systemadmin.useradmin.UserAccounts": [],
   "Prototypes.controller.project.ProjectController": [],
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.DailySchedule": [
+    "widget.dailySchedule"
+  ],
   "Mercury.Main": [],
   "Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter": [
     "widget.managerfilter"
@@ -586,14 +671,20 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.timeaway.timeawaymanager.policymanager.GridGroupsRestrictionsToolbar": [
     "widget.gridgroupsrestrictionstoolbar"
   ],
+  "Prototypes.view.vendorscustomers.VendorCustomerContainer": [
+    "widget.vendorcustomercontainer"
+  ],
   "Prototypes.view.timeaway.timeawaymanager.BlockDates": [
     "widget.blockdates"
   ],
   "Prototypes.view.timeaway.timeawaymanager.policymanager.GridPolicyManager": [
     "widget.gridpolicymanager"
   ],
-  "Prototypes.view.timeaway.timeawayrequest.summaryinformation.SummaryRequestInformation": [
-    "widget.summaryrequestinformation"
+  "Prototypes.view.elementcatalog.menu.TreeMenu": [
+    "widget.treemenuview"
+  ],
+  "Prototypes.view.report.documentLibrary.FormDocumentLibrary": [
+    "widget.formdocumentlibrary"
   ],
   "Prototypes.ux.CommentsContainer": [
     "widget.commentscontainer"
@@ -602,29 +693,41 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.multiselect",
     "widget.multiselectfield"
   ],
-  "Prototypes.view.report.documentLibrary.FormDocumentLibrary": [
-    "widget.formdocumentlibrary"
+  "Prototypes.view.timeaway.timeawayrequest.summaryinformation.SummaryRequestInformation": [
+    "widget.summaryrequestinformation"
   ],
   "Prototypes.store.admin.systemadmin.useradmin.SecurityLevels": [],
-  "Prototypes.ux.UxDependencies": [],
   "Mercury.core.ViewsManager": [],
-  "Prototypes.view.timeaway.timeawayrequest.summaryinformation.GridBalanceProfile": [
-    "widget.gridbalanceprofile"
+  "Prototypes.ux.UxDependencies": [],
+  "Prototypes.view.vendorscustomers.summary.GridSummaryDocuments": [
+    "widget.gridsummarydocuments"
+  ],
+  "Prototypes.view.timeaway.timeawaymanager.TimeAwayGridContainer": [
+    "widget.timeawaygridcontainer"
   ],
   "Prototypes.view.layouttest.LayoutTest": [
     "widget.layouttest"
   ],
-  "Prototypes.view.timeaway.timeawaymanager.GridTimeAwayRequest": [
-    "widget.gridtimeawayrequest"
+  "Prototypes.ux.PhoneContactContainer": [
+    "widget.phonecontactcontainer"
+  ],
+  "Prototypes.view.timeaway.timeawayrequest.summaryinformation.GridBalanceProfile": [
+    "widget.gridbalanceprofile"
   ],
   "Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy": [
     "widget.formpolicy"
   ],
-  "Ext.ux.event.RecorderManager": [
-    "widget.eventrecordermanager"
+  "Prototypes.view.timeaway.timeawaymanager.GridTimeAwayRequest": [
+    "widget.gridtimeawayrequest"
   ],
   "Prototypes.view.project.ProjectSummaryLeftForm": [
     "widget.projectsummaryleftform"
+  ],
+  "Ext.ux.event.RecorderManager": [
+    "widget.eventrecordermanager"
+  ],
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.YearlySchedule": [
+    "widget.yearlySchedule"
   ],
   "Ext.ux.ProgressBarPager": [],
   "Prototypes.model.report.GroupLibrary": [],
@@ -639,6 +742,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.timeaway.timeawayrequest.TimeAwayContainer": [
     "widget.timeawaycontainer"
   ],
+  "Prototypes.view.vendorscustomers.summary.GridSummaryElements": [
+    "widget.gridsummaryelements"
+  ],
   "Prototypes.view.selfservice.importwizard.DateFieldMapping": [
     "widget.datefieldmapping"
   ],
@@ -648,19 +754,19 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.admin.packages.GridPackages": [
     "widget.gridpackages"
   ],
+  "Prototypes.ux.LinkButton": [
+    "widget.linkbutton"
+  ],
   "Prototypes.view.timeaway.timeawaymanager.summaryinfo.GridRequestDetails": [
     "widget.gridrequestdetails"
   ],
-  "Prototypes.ux.LinkButton": [
-    "widget.linkbutton"
+  "Prototypes.view.order.admin.OrderAdminElementGroupsPopUp": [
+    "widget.orderadminelementgroupspopup"
   ],
   "Prototypes.ux.UnsortedList": [
     "widget.unsortedlist"
   ],
   "Ext.ux.ajax.SimManager": [],
-  "Prototypes.view.order.admin.OrderAdminElementGroupsPopUp": [
-    "widget.orderadminelementgroupspopup"
-  ],
   "Mercury.ux.form.AutoCompleteBox": [
     "widget.autocompletebox"
   ],
@@ -670,6 +776,9 @@ Ext.ClassManager.addNameAliasMappings({
     "plugin.tabscrollermenu"
   ],
   "Mercury.core.ViewItem": [],
+  "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.WeeklySchedule": [
+    "widget.weeklySchedule"
+  ],
   "Prototypes.store.timeaway.Requests": [],
   "Prototypes.view.timeaway.timeawaymanager.summaryinfo.GridBalanceInformation": [
     "widget.gridbalanceinformation"
@@ -677,18 +786,18 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.admin.services.category.FormCategory": [
     "widget.formcategory"
   ],
+  "Prototypes.view.admin.services.GridServices": [
+    "widget.gridservices"
+  ],
   "Mercury.ux.view.TreeViewsContainer": [
     "widget.treeviewscontainer"
   ],
   "Ext.ux.LiveSearchGridPanel": [],
-  "Prototypes.view.admin.services.GridServices": [
-    "widget.gridservices"
+  "Ext.ux.grid.filter.DateFilter": [
+    "gridfilter.date"
   ],
   "Prototypes.view.timeaway.timeawaymanager.policymanager.PopUpPolicyManager": [
     "widget.popuppolicymanager"
-  ],
-  "Ext.ux.grid.filter.DateFilter": [
-    "gridfilter.date"
   ],
   "Ext.ux.TreePicker": [
     "widget.treepicker"
@@ -710,10 +819,11 @@ Ext.ClassManager.addNameAliasMappings({
     "proxy.pagingmemory"
   ],
   "Ext.ux.BoxReorderer": [],
-  "Ext.ux.grid.filter.Filter": [],
+  "Prototypes.model.elementcatalog.ItemCart": [],
   "Prototypes.view.admin.systemadmin.useradmin.useraccount.UserAccountPopUp": [
     "widget.useraccountpopup"
   ],
+  "Ext.ux.grid.filter.Filter": [],
   "Ext.ux.GroupTabRenderer": [
     "plugin.grouptabrenderer"
   ],
@@ -735,14 +845,8 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.admin.systemadmin.useradmin.MainUserMaintenanceContainer": [
     "widget.mainusermaintenancecontainer"
   ],
-  "Prototypes.view.vendorscustomers.MainSummaryContainer": [
-    "widget.mainsummarycontainer"
-  ],
   "Prototypes.view.order.summary.DetailInformation": [
     "widget.detailinformation"
-  ],
-  "Prototypes.view.vendorscustomers.GridAdditionalAddresses": [
-    "widget.gridadditionaladdresses"
   ],
   "Prototypes.view.report.documentLibrary.DocumentLibraryPopUp": [
     "widget.documentlibrarypopup"
@@ -761,11 +865,14 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.timeaway.timeawaymanager.summaryinfo.SummaryInformation": [
     "widget.summaryinformation"
   ],
-  "Mercury.ux.data.RestJsonReader": [
-    "reader.restjsonreader"
+  "Prototypes.view.elementcatalog.cart.CartGrid": [
+    "widget.cartgrid"
   ],
   "Prototypes.view.admin.systemadmin.useradmin.securityaccesslevel.SecurityLevelPopUp": [
     "widget.securitylevelpopup"
+  ],
+  "Mercury.ux.data.RestJsonReader": [
+    "reader.restjsonreader"
   ],
   "Prototypes.view.selfservice.importwizard.ImportWizardCardContainer": [
     "widget.importwizardcardcontainer"
@@ -783,18 +890,18 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.choosefile"
   ],
   "Prototypes.store.report.TypeLibraries": [],
-  "Prototypes.model.resources.positions.Position": [],
   "Prototypes.view.admin.systemadmin.useradmin.MainSecurityAccessLevelsContainer": [
     "widget.mainsecurityaccesslevelscontainer"
   ],
+  "Prototypes.model.resources.positions.Position": [],
   "Prototypes.store.resources.positions.Positions": [],
   "Mercury.ux.container.IFrameContainer": [
     "widget.iframecontainer"
   ],
-  "Ext.ux.grid.menu.RangeMenu": [],
   "Prototypes.view.project.customerproject.VendorTradesContainer": [
     "widget.vendortradescontainer"
   ],
+  "Ext.ux.grid.menu.RangeMenu": [],
   "Ext.ux.RowExpander": [],
   "Mercury.util.FileLoader": [],
   "Prototypes.store.admin.services.Services": [],
@@ -817,13 +924,16 @@ Ext.ClassManager.addNameAliasMappings({
   "Prototypes.view.timeaway.executivedashboard.SearchExecutiveDashboard": [
     "widget.searchexecutivedashboard"
   ],
-  "Prototypes.controller.report.DocumentLibraryController": [],
-  "Prototypes.view.report.documentLibrary.GridDocumentLibrary": [
-    "widget.griddocumentlibrary"
+  "Prototypes.view.vendorscustomers.summary.SummaryTabContainer": [
+    "widget.summarytabcontainer"
   ],
   "Prototypes.view.resources.positions.GridResourcesPositions": [
     "widget.gridresourcespositions"
   ],
+  "Prototypes.view.report.documentLibrary.GridDocumentLibrary": [
+    "widget.griddocumentlibrary"
+  ],
+  "Prototypes.controller.report.DocumentLibraryController": [],
   "Prototypes.store.report.GroupLibraries": [],
   "Mercury.ux.popup.ErrorWindow": [
     "widget.errorwindow"
@@ -831,14 +941,20 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.DataTip": [
     "plugin.datatip"
   ],
-  "Ext.ux.ajax.JsonSimlet": [
-    "simlet.json"
-  ],
   "Prototypes.view.project.customerproject.CustomerVendorGrid": [
     "widget.customervendorgrid"
   ],
+  "Prototypes.view.elementcatalog.item.ItemsDisplay": [
+    "widget.itemsdisplay"
+  ],
+  "Ext.ux.ajax.JsonSimlet": [
+    "simlet.json"
+  ],
   "Prototypes.view.project.ProjectSummaryHeader": [
     "widget.projectsummaryheader"
+  ],
+  "Prototypes.view.vendorscustomers.VendorCustomerSidePanel": [
+    "widget.vendorcustomersidepanel"
   ],
   "Prototypes.model.report.FolderLibrary": [],
   "Prototypes.view.project.ProjectSummaryOptions": [

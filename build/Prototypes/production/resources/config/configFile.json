@@ -10,9 +10,60 @@
 
     "viewsManagement": {
         "enabled": true,
-        "viewsContainerPackage": "Mercury.ux.view.TreeViewsContainer",
+        "viewsContainerPackage": "Mercury.ux.view.TabViewsContainer",
         "views": [
-
+            /*{
+                "name": "elementcatalog",
+                "label": "Element Catalog",
+                "children": [
+                    {
+                        "name": "elementcatalogview",
+                        "label": "Element Catalog View",
+                        "package": "Prototypes.view.elementcatalog.Viewport"
+                    }
+                ]
+            },
+            {
+                "name": "vendorsTrade",
+                "label": "Vendors/Trades and Customers",
+                "children": [
+                    {
+                        "name": "vendorstradescustomers",
+                        "label": "Customers/Trades/Vendors Center",
+                        "package": "Prototypes.view.vendorscustomers.MainVendorCustomerContainer"
+                    },
+                    {
+                        "name": "border",
+                        "label": "Customers/Trades/Vendors entities views",
+                        "package": "Prototypes.view.vendorscustomers.VendorCustomerContainer",
+                        "default": true
+                    }
+                ]
+            },*/
+            {
+                "name": "timeaway",
+                "label": "Time Away",
+                "package": "Prototypes.view.timeaway.MainTimeAwayContainer",
+                "default": true
+                /*"children": [
+                    {
+                        "name": "menutimeaway",
+                        "label": "Time Away Request Center",
+                        "package": "Prototypes.view.timeaway.MainTimeAwayContainer"
+                    },
+                    {
+                        "name": "menutimeawaymanager",
+                        "label": "Time Away Request Manager",
+                        "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
+                    }
+                ]*/
+            },
+            {
+                "name": "timeawaymanager",
+                "label": "Time Away Manager",
+                "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
+            }
+            /*,
             {
                 "name": "admin",
                 "label": "Admin",
@@ -29,20 +80,6 @@
                     }
                 ]
             },
-
-            {
-                "name": "layouttest",
-                "label": "Layou Tests",
-                "children": [
-                    {
-                        "name": "columnTest",
-                        "label": "Column test",
-                        "package": "Prototypes.view.layouttest.LayoutTest",
-                        "default": true
-                    }
-                ]
-            },
-
             {
                 "name": "order",
                 "label": "Order",
@@ -123,47 +160,7 @@
                         "package": "Prototypes.view.selfservice.importwizard.ImportWizardCardContainer"
                     }
                 ]
-            },
-
-            {
-                "name": "timeaway",
-                "label": "Time Away",
-                "children": [
-                    {
-                        "name": "menutimeaway",
-                        "label": "Time Away Request Center",
-                        "package": "Prototypes.view.timeaway.MainTimeAwayContainer"
-                    },
-                    {
-                        "name": "menutimeawaymanager",
-                        "label": "Time Away Request Manager",
-                        "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
-                    }
-                ]
-            },
-
-            {
-                "name": "vendorsTrade",
-                "label": "Vendors/Trades and Customers",
-                "children": [
-                    {
-                        "name": "vendorstradescustomers",
-                        "label": "Vendors/Trades and Customers",
-                        "package": "Prototypes.view.vendorscustomers.MainVendorCustomerContainer"
-                    },
-                    {
-                        "name": "summarycustomers",
-                        "label": "Summary",
-                        "package": "Prototypes.view.vendorscustomers.MainSummaryContainer"
-                    },
-                    {
-                        "name": "gridgrid",
-                        "label": "Grid",
-                        "package": "Prototypes.view.vendorscustomers.GridAdditionalAddresses"
-                    }
-                ]
-            }
-
+            }*/
         ]
     }
 
