@@ -45,77 +45,74 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
                                         cls: 'top-border',
                                         items: [
                                             {
-                                                xtype: 'fieldcontainer',
-                                                defaultType: 'radiofield',
-                                                layout: 'vbox',
+                                                xtype: 'radiogroup',
+                                                columns: 1,
                                                 cls: 'rigth-border',
                                                 items: [
                                                     {
-                                                        boxLabel: 'Daily'
+                                                        xtype: 'radiofield',
+                                                        boxLabel: 'Daily',
+                                                        itemId: 'rfAccrualDaily',
+                                                        name: 'fpAccrual',
+                                                        inputValue: '1',
+                                                        checked: true,
+                                                        listeners: {
+                                                            scope: this,
+                                                            change: function(){
+                                                                this.fireEvent('dailyAccrualChanged');
+                                                            }
+                                                        }
                                                     },
                                                     {
-                                                        boxLabel: 'Weekly'
+                                                        xtype: 'radiofield',
+                                                        boxLabel: 'Weekly',
+                                                        itemId: 'rfAccrualWeekly',
+                                                        name: 'fpAccrual',
+                                                        inputValue: '2',
+                                                        listeners: {
+                                                            scope: this,
+                                                            change: function(){
+                                                                this.fireEvent('weeklyAccrualChanged');
+                                                            }
+                                                        }
                                                     },
                                                     {
-                                                        boxLabel: 'Monthly'
+                                                        xtype: 'radiofield',
+                                                        boxLabel: 'Monthly',
+                                                        itemId: 'rfAccrualMonthly',
+                                                        name: 'fpAccrual',
+                                                        inputValue: '3',
+                                                        listeners: {
+                                                            scope: this,
+                                                            change: function(){
+                                                                this.fireEvent('monthlyAccrualChanged');
+                                                            }
+                                                        }
                                                     },
                                                     {
-                                                        boxLabel: 'Yearly'
+                                                        xtype: 'radiofield',
+                                                        boxLabel: 'Yearly',
+                                                        itemId: 'rfAccrualYearly',
+                                                        name: 'fpAccrual',
+                                                        inputValue: '4',
+                                                        listeners: {
+                                                            scope: this,
+                                                            change: function(){
+                                                                this.fireEvent('yearlyAccrualChanged');
+                                                            }
+                                                        }
                                                     }
                                                 ]
                                             },
                                             {
                                                 xtype: 'container',
-                                                layout: 'hbox',
+                                                itemId: 'ctnAccrualSchedule',
                                                 items: [
                                                     {
-                                                        xtype: 'fieldcontainer',
-                                                        padding: '0 0 0 10',
-                                                        defaultType: 'radiofield',
-                                                        layout: 'vbox',
-                                                        items: [
-                                                            {
-                                                                boxLabel: 'Sunday'
-                                                            },
-                                                            {
-                                                                boxLabel: 'Wednesday'
-                                                            },
-                                                            {
-                                                                boxLabel: 'Saturday'
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        xtype: 'fieldcontainer',
-                                                        padding: '0 0 0 5',
-                                                        defaultType: 'radiofield',
-                                                        layout: 'vbox',
-                                                        items: [
-                                                            {
-                                                                boxLabel: 'Monday'
-                                                            },
-                                                            {
-                                                                boxLabel: 'Thursday'
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        xtype: 'fieldcontainer',
-                                                        padding: '0 0 0 5',
-                                                        defaultType: 'radiofield',
-                                                        layout: 'vbox',
-                                                        items: [
-                                                            {
-                                                                boxLabel: 'Tuesday'
-                                                            },
-                                                            {
-                                                                boxLabel: 'Friday'
-                                                            }
-                                                        ]
+                                                        xtype: 'dailySchedule'
                                                     }
                                                 ]
                                             }
-
                                         ]
                                     }
                                 ]
@@ -159,53 +156,53 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
                                                     {
                                                         xtype: 'radiofield',
                                                         boxLabel: 'Daily',
-                                                        itemId: 'rfDaily',
-                                                        name: 'fp',
+                                                        itemId: 'rfCarryoverDaily',
+                                                        name: 'fpCarryover',
                                                         inputValue: '1',
                                                         checked: true,
                                                         listeners: {
                                                             scope: this,
                                                             change: function(){
-                                                                this.fireEvent('dailyChanged');
+                                                                this.fireEvent('dailyCarryoverChanged');
                                                             }
                                                         }
                                                     },
                                                     {
                                                         xtype: 'radiofield',
                                                         boxLabel: 'Weekly',
-                                                        itemId: 'rfWeekly',
-                                                        name: 'fp',
+                                                        itemId: 'rfCarryoverWeekly',
+                                                        name: 'fpCarryover',
                                                         inputValue: '2',
                                                         listeners: {
                                                             scope: this,
                                                             change: function(){
-                                                                this.fireEvent('weeklyChanged');
+                                                                this.fireEvent('weeklyCarryoverChanged');
                                                             }
                                                         }
                                                     },
                                                     {
                                                         xtype: 'radiofield',
                                                         boxLabel: 'Monthly',
-                                                        itemId: 'rfMonthly',
-                                                        name: 'fp',
+                                                        itemId: 'rfCarryoverMonthly',
+                                                        name: 'fpCarryover',
                                                         inputValue: '3',
                                                         listeners: {
                                                             scope: this,
                                                             change: function(){
-                                                                this.fireEvent('monthlyChanged');
+                                                                this.fireEvent('monthlyCarryoverChanged');
                                                             }
                                                         }
                                                     },
                                                     {
                                                         xtype: 'radiofield',
                                                         boxLabel: 'Yearly',
-                                                        itemId: 'rfYearly',
-                                                        name: 'fp',
+                                                        itemId: 'rfCarryoverYearly',
+                                                        name: 'fpCarryover',
                                                         inputValue: '4',
                                                         listeners: {
                                                             scope: this,
                                                             change: function(){
-                                                                this.fireEvent('yearlyChanged');
+                                                                this.fireEvent('yearlyCarryoverChanged');
                                                             }
                                                         }
                                                     }
@@ -213,7 +210,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
                                             },
                                             {
                                                 xtype: 'container',
-                                                itemId: 'ctnSchedule',
+                                                itemId: 'ctnCarryoverSchedule',
                                                 items: [
                                                     {
                                                         xtype: 'dailySchedule'

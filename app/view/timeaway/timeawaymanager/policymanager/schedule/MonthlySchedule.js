@@ -18,7 +18,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Mont
                         xtype: 'container',
                         layout: 'hbox',
                         items: [
-                            { xtype: 'radiofield', boxLabel: 'Day', name: 'ms', inputValue: '1', checked: true },
+                            { xtype: 'radiofield', boxLabel: 'Day', name: 'monthlySchedule', inputValue: '1'},
                             {
                                 xtype: 'numberfield',
                                 padding: '0 5 0 5',
@@ -50,7 +50,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Mont
                         width: 380,
                         padding: '5 0 0 0',
                         items: [
-                            { xtype: 'radiofield', boxLabel: 'The: ', name: 'ms', inputValue: '2', checked: true },
+                            { xtype: 'radiofield', boxLabel: 'The: ', name: 'monthlySchedule', inputValue: '2'},
                             {
                                 xtype:'combobox',
                                 editable:false,

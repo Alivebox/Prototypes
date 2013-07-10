@@ -76,10 +76,14 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayManagerController', {
                 groupRestrictionsAddRow: this.onGroupRestrictionsAddRow
             },
             formpolicy: {
-                dailyChanged: 'showDailySchedule',
-                monthlyChanged: 'showMonthlySchedule',
-                weeklyChanged: 'showWeeklySchedule',
-                yearlyChanged: 'showYearlySchedule'
+                dailyCarryoverChanged: 'showDailyCarryoverSchedule',
+                monthlyCarryoverChanged: 'showMonthlyCarryoverSchedule',
+                weeklyCarryoverChanged: 'showWeeklyCarryoverSchedule',
+                yearlyCarryoverChanged: 'showYearlyCarryoverSchedule',
+                dailyAccrualChanged: 'showDailyAccrualSchedule',
+                monthlyAccrualChanged: 'showMonthlyAccrualSchedule',
+                weeklyAccrualChanged: 'showWeeklyAccrualSchedule',
+                yearlyAccrualChanged: 'showYearlyAccrualSchedule'
             }
         })
     },
@@ -168,42 +172,82 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayManagerController', {
         tmpRequestStatus.reset();
         this.getRequestDetailsGrid().getStore().removeAll();
     },
-
-    showDailySchedule: function(){
-        if(!this.getFormPolicy().down('#rfDaily').checked){
+    
+    showDailyCarryoverSchedule: function(){
+        if(!this.getFormPolicy().down('#rfCarryoverDaily').checked){
             return;
         }
-        var tmpContainer = this.getFormPolicy().down('#ctnSchedule');
+        var tmpContainer = this.getFormPolicy().down('#ctnCarryoverSchedule');
         tmpContainer.removeAll();
         var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.DailySchedule');
         tmpContainer.add(tmpView);
     },
 
-    showWeeklySchedule: function(){
-        if(!this.getFormPolicy().down('#rfWeekly').checked){
+    showWeeklyCarryoverSchedule: function(){
+        if(!this.getFormPolicy().down('#rfCarryoverWeekly').checked){
             return;
         }
-        var tmpContainer = this.getFormPolicy().down('#ctnSchedule');
+        var tmpContainer = this.getFormPolicy().down('#ctnCarryoverSchedule');
         tmpContainer.removeAll();
         var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.WeeklySchedule');
         tmpContainer.add(tmpView);
     },
 
-    showMonthlySchedule: function(){
-        if(!this.getFormPolicy().down('#rfMonthly').checked){
+    showMonthlyCarryoverSchedule: function(){
+        if(!this.getFormPolicy().down('#rfCarryoverMonthly').checked){
             return;
         }
-        var tmpContainer = this.getFormPolicy().down('#ctnSchedule');
+        var tmpContainer = this.getFormPolicy().down('#ctnCarryoverSchedule');
         tmpContainer.removeAll();
         var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.MonthlySchedule');
         tmpContainer.add(tmpView);
     },
 
-    showYearlySchedule: function(){
-        if(!this.getFormPolicy().down('#rfYearly').checked){
+    showYearlyCarryoverSchedule: function(){
+        if(!this.getFormPolicy().down('#rfCarryoverYearly').checked){
             return;
         }
-        var tmpContainer = this.getFormPolicy().down('#ctnSchedule');
+        var tmpContainer = this.getFormPolicy().down('#ctnCarryoverSchedule');
+        tmpContainer.removeAll();
+        var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.YearlySchedule');
+        tmpContainer.add(tmpView);
+    },
+
+    showDailyAccrualSchedule: function(){
+        if(!this.getFormPolicy().down('#rfAccrualDaily').checked){
+            return;
+        }
+        var tmpContainer = this.getFormPolicy().down('#ctnAccrualSchedule');
+        tmpContainer.removeAll();
+        var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.DailySchedule');
+        tmpContainer.add(tmpView);
+    },
+    
+    showWeeklyAccrualSchedule: function(){
+        if(!this.getFormPolicy().down('#rfAccrualWeekly').checked){
+            return;
+        }
+        var tmpContainer = this.getFormPolicy().down('#ctnAccrualSchedule');
+        tmpContainer.removeAll();
+        var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.WeeklySchedule');
+        tmpContainer.add(tmpView);
+    },
+    
+    showMonthlyAccrualSchedule: function(){
+        if(!this.getFormPolicy().down('#rfAccrualMonthly').checked){
+            return;
+        }
+        var tmpContainer = this.getFormPolicy().down('#ctnAccrualSchedule');
+        tmpContainer.removeAll();
+        var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.MonthlySchedule');
+        tmpContainer.add(tmpView);
+    },
+    
+    showYearlyAccrualSchedule: function(){
+        if(!this.getFormPolicy().down('#rfAccrualYearly').checked){
+            return;
+        }
+        var tmpContainer = this.getFormPolicy().down('#ctnAccrualSchedule');
         tmpContainer.removeAll();
         var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.YearlySchedule');
         tmpContainer.add(tmpView);

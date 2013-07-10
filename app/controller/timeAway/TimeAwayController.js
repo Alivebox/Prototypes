@@ -341,6 +341,7 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayController', {
     },
 
     onAfterRenderCalendarRequest: function(){
+        debugger;
         for(var tmpCont=0; tmpCont < tmpStoreRequest.data.items.length; tmpCont++){
             var tmpRequest = tmpStoreRequest.data.items[tmpCont];
             this.setDoubleDatePickerClass(tmpRequest, false);
