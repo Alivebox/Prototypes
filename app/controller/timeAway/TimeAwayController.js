@@ -73,8 +73,8 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayController', {
             selector: 'daterangeselectorcontainer'
         },
         {
-            ref: 'doubleEnhancedDatePicker',
-            selector: 'calendarrequest [itemId=doubleEnhancedDatePicker]'
+            ref: 'calendar',
+            selector: 'calendarrequest [itemId=calendar]'
         },
         {
             ref: 'graphicalGridContainer',
@@ -104,9 +104,8 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayController', {
                 'confirmAndSend': this.onConfirmAndSend,
                 'clear' : this.onClear
             },
-            'calendarrequest > doubleenhanceddatepicker': {
+            'calendarrequest': {
                 'dayMonthSelected': this.onDayMonthSelected,
-                'monthChanged': this.onMonthChanged,
                 'afterrender': this.onAfterRenderCalendarRequest
             },
             'graphicalgridcontainer': {
@@ -256,15 +255,15 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayController', {
             this.addRequestToGrid(argRequest);
         }
         if(argRequest.data.status === 'Unavailable'){
-            this.getDoubleEnhancedDatePicker().onSetMonthsDateClass(argRequest.data.date, "cell-red");
+            this.getCalendar().onSetMonthsDateClass(argRequest.data.date, "cell-red");
             return;
         }
         if(argRequest.data.status === 'Reached'){
-            this.getDoubleEnhancedDatePicker().onSetMonthsDateClass(argRequest.data.date, "cell-yellow");
+            this.getCalendar().onSetMonthsDateClass(argRequest.data.date, "cell-yellow");
             return;
         }
         if(argRequest.data.status === 'NotReached'){
-            this.getDoubleEnhancedDatePicker().onSetMonthsDateClass(argRequest.data.date, "cell-green");
+            this.getCalendar().onSetMonthsDateClass(argRequest.data.date, "cell-green");
             return;
         }
     },
@@ -327,9 +326,6 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayController', {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     },
 
-    onMonthChanged: function(){
-    },
-
     onSelectedDaysDisplay: function(argCombo, argRecords){
        this.getGraphicalGridContainer().recofigureDisplayDays(this.getDisplayDays());
        this.getGraphicalGridContainer().setDateFilters(this.getDfStartDate().getValue());
@@ -341,7 +337,6 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayController', {
     },
 
     onAfterRenderCalendarRequest: function(){
-        debugger;
         for(var tmpCont=0; tmpCont < tmpStoreRequest.data.items.length; tmpCont++){
             var tmpRequest = tmpStoreRequest.data.items[tmpCont];
             this.setDoubleDatePickerClass(tmpRequest, false);
