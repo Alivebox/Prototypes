@@ -74,7 +74,6 @@ Ext.define('Prototypes.ux.FlagsCombobox', {
     },
 
     onValueChanged: function(argComponent, argNewValue, argOldValue, argEventOptions){
-        debugger;
     }
 });
 
