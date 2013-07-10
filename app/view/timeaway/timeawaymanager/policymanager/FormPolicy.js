@@ -152,155 +152,71 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.FormPolicy', 
                                         cls: 'top-border',
                                         items: [
                                             {
-                                                xtype: 'fieldcontainer',
-                                                defaultType: 'radiofield',
-                                                layout: 'vbox',
+                                                xtype: 'radiogroup',
+                                                columns: 1,
                                                 cls: 'rigth-border',
                                                 items: [
                                                     {
-                                                        boxLabel: 'Daily'
+                                                        xtype: 'radiofield',
+                                                        boxLabel: 'Daily',
+                                                        itemId: 'rfDaily',
+                                                        name: 'fp',
+                                                        inputValue: '1',
+                                                        checked: true,
+                                                        listeners: {
+                                                            scope: this,
+                                                            change: function(){
+                                                                this.fireEvent('dailyChanged');
+                                                            }
+                                                        }
                                                     },
                                                     {
-                                                        boxLabel: 'Weekly'
+                                                        xtype: 'radiofield',
+                                                        boxLabel: 'Weekly',
+                                                        itemId: 'rfWeekly',
+                                                        name: 'fp',
+                                                        inputValue: '2',
+                                                        listeners: {
+                                                            scope: this,
+                                                            change: function(){
+                                                                this.fireEvent('weeklyChanged');
+                                                            }
+                                                        }
                                                     },
                                                     {
-                                                        boxLabel: 'Monthly'
+                                                        xtype: 'radiofield',
+                                                        boxLabel: 'Monthly',
+                                                        itemId: 'rfMonthly',
+                                                        name: 'fp',
+                                                        inputValue: '3',
+                                                        listeners: {
+                                                            scope: this,
+                                                            change: function(){
+                                                                this.fireEvent('monthlyChanged');
+                                                            }
+                                                        }
                                                     },
                                                     {
-                                                        boxLabel: 'Yearly'
+                                                        xtype: 'radiofield',
+                                                        boxLabel: 'Yearly',
+                                                        itemId: 'rfYearly',
+                                                        name: 'fp',
+                                                        inputValue: '4',
+                                                        listeners: {
+                                                            scope: this,
+                                                            change: function(){
+                                                                this.fireEvent('yearlyChanged');
+                                                            }
+                                                        }
                                                     }
                                                 ]
                                             },
                                             {
                                                 xtype: 'container',
-                                                layout: 'vbox',
+                                                itemId: 'ctnSchedule',
                                                 items: [
                                                     {
-                                                        xtype: 'container',
-                                                        layout: 'hbox',
-                                                        padding: '5 0 0 5',
-                                                        items: [
-                                                            {
-                                                                xtype: 'label',
-                                                                text: 'Recur every',
-                                                                padding: '3 0 0 0'
-                                                            },
-                                                            {
-                                                                xtype: 'numberfield',
-                                                                width: 35,
-                                                                maxValue: 10,
-                                                                minValue: 1
-                                                            },
-                                                            {
-                                                                xtype: 'label',
-                                                                text: 'year(s)',
-                                                                padding: '3 0 0 0'
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        xtype: 'container',
-                                                        layout: 'hbox',
-                                                        padding: '5 0 0 10',
-                                                        items: [
-                                                            {
-                                                                xtype: 'radiofield',
-                                                                boxLabel: 'On',
-                                                                padding: '0 2 0 0'
-                                                            },
-                                                            {
-                                                                xtype:'combobox',
-                                                                editable:false,
-                                                                width: 75,
-                                                                value: 1,
-                                                                store:[
-                                                                    [1, 'January'],
-                                                                    [2, 'February'],
-                                                                    [3, 'March'],
-                                                                    [4, 'April'],
-                                                                    [5, 'May'],
-                                                                    [6, 'June'],
-                                                                    [7, 'July'],
-                                                                    [8, 'August'],
-                                                                    [9, 'September'],
-                                                                    [10, 'October'],
-                                                                    [11, 'November'],
-                                                                    [12, 'December']
-
-                                                                ]
-                                                            },
-                                                            {
-                                                                xtype: 'numberfield',
-                                                                width: 35,
-                                                                maxValue: 31,
-                                                                minValue: 1
-                                                            }
-                                                        ]
-                                                    },
-                                                    {
-                                                        xtype: 'container',
-                                                        layout: 'hbox',
-                                                        padding: '5 0 0 10',
-                                                        items: [
-                                                            {
-                                                                xtype: 'radiofield',
-                                                                boxLabel: 'On the',
-                                                                padding: '0 2 0 0'
-                                                            },
-                                                            {
-                                                                xtype:'combobox',
-                                                                editable:false,
-                                                                width: 75,
-                                                                value: 1,
-                                                                store:[
-                                                                    [1, 'First'],
-                                                                    [2, 'Second'],
-                                                                    [3, 'Third'],
-                                                                    [4, 'Fourth']
-
-                                                                ]
-                                                            },
-                                                            {
-                                                                xtype:'combobox',
-                                                                editable:false,
-                                                                width: 75,
-                                                                value: 1,
-                                                                store:[
-                                                                    [1, 'Monday'],
-                                                                    [2, 'Thursday'],
-                                                                    [3, 'Wednesday'],
-                                                                    [4, 'Thuesday'],
-                                                                    [5, 'Friday']
-
-                                                                ]
-                                                            },
-                                                            {
-                                                                xtype: 'label',
-                                                                text: 'of',
-                                                                padding: '3 2 0 2'
-                                                            },
-                                                            {
-                                                                xtype:'combobox',
-                                                                editable:false,
-                                                                width: 75,
-                                                                value: 1,
-                                                                store:[
-                                                                    [1, 'January'],
-                                                                    [2, 'February'],
-                                                                    [3, 'March'],
-                                                                    [4, 'April'],
-                                                                    [5, 'May'],
-                                                                    [6, 'June'],
-                                                                    [7, 'July'],
-                                                                    [8, 'August'],
-                                                                    [9, 'September'],
-                                                                    [10, 'October'],
-                                                                    [11, 'November'],
-                                                                    [12, 'December']
-
-                                                                ]
-                                                            }
-                                                        ]
+                                                        xtype: 'dailySchedule'
                                                     }
                                                 ]
                                             }
