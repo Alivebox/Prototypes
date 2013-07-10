@@ -19,7 +19,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail
                 items:[
                     {
                         xtype: 'gridrequestdetail',
-                        padding: '10 10 10 10',
+                        padding: '50 10 10 10',
                         width: '100%'
                     },
                     {

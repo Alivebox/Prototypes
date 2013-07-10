@@ -54,33 +54,37 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.GraphicalGridCont
                         xtype: 'gridcolumn',
                         text: 'Name',
                         dataIndex: 'name',
-                        flex: 3
+                        flex: 2
                     },
                     {
                         xtype: 'gridcolumn',
                         text: 'Position',
-                        dataIndex: 'position'
+                        dataIndex: 'position',
+                        flex: 1
                     },
                     {
                         xtype: 'gridcolumn',
                         dataIndex: 'dateFilter1',
                         itemId: 'gcDateFilter1',
                         align: 'center',
-                        renderer: this.onLoadImage
+                        renderer: this.onLoadImage,
+                        flex: 1
                     },
                     {
                         xtype: 'gridcolumn',
                         dataIndex: 'dateFilter2',
                         itemId: 'gcDateFilter2',
                         align: 'center',
-                        renderer: this.onLoadImage
+                        renderer: this.onLoadImage,
+                        flex: 1
                     },
                     {
                         xtype: 'gridcolumn',
                         dataIndex: 'dateFilter3',
                         itemId: 'gcDateFilter3',
                         align: 'center',
-                        renderer: this.onLoadImage
+                        renderer: this.onLoadImage,
+                        flex: 1
                     }
                 ]
             }

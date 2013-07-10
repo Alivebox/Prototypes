@@ -2,6 +2,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.graphical.ApprovedRequestDe
 
     extend: 'Ext.panel.Panel',
     alias: 'widget.approvedrequestdetails',
+    padding: '50 0 0 0',
     initComponent:function () {
         this.items = [
             {
