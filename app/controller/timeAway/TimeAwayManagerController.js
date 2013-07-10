@@ -50,6 +50,10 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayManagerController', {
         {
             ref: 'restrictionsGrid',
             selector: 'gridgrouprestrictions'
+        },
+        {
+            ref: 'formPolicy',
+            selector: 'formpolicy'
         }
 
     ],
@@ -70,6 +74,12 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayManagerController', {
             },
             gridgroupsrestrictionstoolbar:{
                 groupRestrictionsAddRow: this.onGroupRestrictionsAddRow
+            },
+            formpolicy: {
+                dailyChanged: 'showDailySchedule',
+                monthlyChanged: 'showMonthlySchedule',
+                weeklyChanged: 'showWeeklySchedule',
+                yearlyChanged: 'showYearlySchedule'
             }
         })
     },
@@ -157,6 +167,46 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayManagerController', {
         tmpRequestReason.setText('');
         tmpRequestStatus.reset();
         this.getRequestDetailsGrid().getStore().removeAll();
+    },
+
+    showDailySchedule: function(){
+        if(!this.getFormPolicy().down('#rfDaily').checked){
+            return;
+        }
+        var tmpContainer = this.getFormPolicy().down('#ctnSchedule');
+        tmpContainer.removeAll();
+        var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.DailySchedule');
+        tmpContainer.add(tmpView);
+    },
+
+    showWeeklySchedule: function(){
+        if(!this.getFormPolicy().down('#rfWeekly').checked){
+            return;
+        }
+        var tmpContainer = this.getFormPolicy().down('#ctnSchedule');
+        tmpContainer.removeAll();
+        var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.WeeklySchedule');
+        tmpContainer.add(tmpView);
+    },
+
+    showMonthlySchedule: function(){
+        if(!this.getFormPolicy().down('#rfMonthly').checked){
+            return;
+        }
+        var tmpContainer = this.getFormPolicy().down('#ctnSchedule');
+        tmpContainer.removeAll();
+        var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.MonthlySchedule');
+        tmpContainer.add(tmpView);
+    },
+
+    showYearlySchedule: function(){
+        if(!this.getFormPolicy().down('#rfYearly').checked){
+            return;
+        }
+        var tmpContainer = this.getFormPolicy().down('#ctnSchedule');
+        tmpContainer.removeAll();
+        var tmpView = Ext.create('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.YearlySchedule');
+        tmpContainer.add(tmpView);
     }
 
 });

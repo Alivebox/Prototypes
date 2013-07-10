@@ -6,7 +6,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Year
     layout: {
         type: 'vbox'
     },
-
+    padding: '0 0 0 5',
     initComponent: function () {
         this.items = [
             {
@@ -40,7 +40,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Year
                         xtype: 'container',
                         layout: 'hbox',
                         items: [
-                            { xtype: 'radiofield', boxLabel: 'on: ', name: 'rb', inputValue: '1', checked: true },
+                            { xtype: 'radiofield', boxLabel: 'on: ', name: 'ys', inputValue: '1', checked: true },
                             {
                                 xtype:'combobox',
                                 editable:false,
@@ -76,7 +76,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Year
                         layout: 'hbox',
                         padding: '5 0 0 0',
                         items: [
-                            { xtype: 'radiofield', boxLabel: 'on the: ', name: 'rb', inputValue: '2', checked: true },
+                            { xtype: 'radiofield', boxLabel: 'on the: ', name: 'ys', inputValue: '2', checked: true },
                             {
                                 xtype:'combobox',
                                 editable:false,

@@ -6,7 +6,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Week
     layout: {
         type: 'vbox'
     },
-
+    padding: '0 0 0 5',
     initComponent: function () {
         this.items = [
             {
@@ -36,13 +36,13 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Week
                 columns: 3,
                 width: 280,
                 items: [
-                    { boxLabel: 'Sunday', name: 'rb', inputValue: '1' },
-                    { boxLabel: 'Monday', name: 'rb', inputValue: '2'},
-                    { boxLabel: 'Tuesday', name: 'rb', inputValue: '3' },
-                    { boxLabel: 'Wednesday', name: 'rb', inputValue: '4' },
-                    { boxLabel: 'Thurday', name: 'rb', inputValue: '5' },
-                    { boxLabel: 'Friday', name: 'rb', inputValue: '6' },
-                    { boxLabel: 'Saturday', name: 'rb', inputValue: '7' }
+                    { boxLabel: 'Sunday', name: 'ws', inputValue: '1' },
+                    { boxLabel: 'Monday', name: 'ws', inputValue: '2'},
+                    { boxLabel: 'Tuesday', name: 'ws', inputValue: '3' },
+                    { boxLabel: 'Wednesday', name: 'ws', inputValue: '4' },
+                    { boxLabel: 'Thurday', name: 'ws', inputValue: '5' },
+                    { boxLabel: 'Friday', name: 'ws', inputValue: '6' },
+                    { boxLabel: 'Saturday', name: 'ws', inputValue: '7' }
                 ]
             }
         ];

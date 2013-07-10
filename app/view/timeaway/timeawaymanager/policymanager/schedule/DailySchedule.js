@@ -3,14 +3,16 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Dail
     extend: 'Ext.container.Container',
     alias: 'widget.dailySchedule',
     title: 'Edit Policy',
+    width: 300,
     layout: {
         type: 'vbox'
     },
-
+    padding: '0 0 0 5',
     initComponent: function () {
         this.items = [
             {
                 xtype: 'radiogroup',
+                width: 300,
                 columns: 1,
                 padding: '5 0 0 5',
                 items: [
@@ -18,7 +20,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Dail
                         xtype: 'container',
                         layout: 'hbox',
                         items: [
-                            { xtype: 'radiofield', name: 'rb', inputValue: '1', checked: true },
+                            { xtype: 'radiofield', name: 'ds', inputValue: '1', checked: true },
                             {
                                 xtype: 'label',
                                 text: 'Every',
@@ -37,7 +39,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Dail
                             }
                         ]
                     },
-                    { boxLabel: 'Every Weekday', name: 'rb', inputValue: '2' }
+                    { boxLabel: 'Every Weekday', name: 'ds', inputValue: '2' }
                 ]
             }
         ];
