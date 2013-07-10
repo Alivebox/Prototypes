@@ -43,7 +43,8 @@
             {
                 "name": "timeaway",
                 "label": "Time Away",
-                "package": "Prototypes.view.timeaway.MainTimeAwayContainer"
+                "package": "Prototypes.view.timeaway.MainTimeAwayContainer",
+                "default": true
                 /*"children": [
                     {
                         "name": "menutimeaway",
