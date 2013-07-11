@@ -62,8 +62,7 @@
                 "name": "timeawaymanager",
                 "label": "Time Away Manager",
                 "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
-            }
-            /*,
+            }/*,
             {
                 "name": "admin",
                 "label": "Admin",
