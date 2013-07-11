@@ -19,7 +19,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail
                 items:[
                     {
                         xtype: 'gridrequestdetail',
-                        padding: '50 10 10 10',
+                        padding: '0 35 10 35',
                         width: '100%'
                     },
                     {
@@ -29,7 +29,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail
                         displayField: 'name',
                         valueField: 'name',
                         width: '30%',
-                        padding: '0 0 0 10',
+                        padding: '0 0 0 35',
                         store: Ext.create('Ext.data.Store', {
                             fields: ['id', 'name'],
                             data: [
@@ -45,7 +45,7 @@ Ext.define('Prototypes.view.timeaway.timeawayrequest.requestdetail.RequestDetail
                     {
                         xtype: 'textareafield',
                         itemId: 'taReason',
-                        padding: '0 0 0 10',
+                        padding: '0 0 0 35',
                         width: '85%',
                         fieldLabel: 'Reason'
                     }

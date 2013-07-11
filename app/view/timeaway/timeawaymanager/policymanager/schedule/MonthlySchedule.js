@@ -88,7 +88,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.Mont
                             },
                             {
                                 xtype: 'numberfield',
-                                width: 50,
+                                width: 45,
                                 maxValue: 10,
                                 minValue: 1
                             },

@@ -24,7 +24,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.policymanager.ManagePolicyC
             {
                 xtype: 'panel',
                 title: 'Policies',
-                flex: 2,
+                flex: 1.5,
                 border: 1,
                 height: 900,
                 items: [

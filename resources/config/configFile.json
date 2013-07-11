@@ -62,11 +62,6 @@
                 "name": "timeawaymanager",
                 "label": "Time Away Manager",
                 "package": "Prototypes.view.timeaway.MainTimeAwayManagerContainer"
-            },
-            {
-                "name": "schedule",
-                "label": "Schedule",
-                "package": "Prototypes.view.timeaway.timeawaymanager.policymanager.schedule.YearlySchedule"
             }/*,
             {
                 "name": "admin",

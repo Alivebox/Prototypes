@@ -1,6 +1,7 @@
 Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.managerfilter',
+    minWidth: 350,
     collapsible: 'true',
     collapseDirection: 'left',
     layout: {
@@ -86,16 +87,16 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
             {
                 xtype: 'container',
                 layout: 'hbox',
-                padding: '50 0 0 0',
+                padding: '50 0 10 0',
                 items: [
                     {
                         xtype: 'label',
                         text: 'Save as:'
                     },
                     {
-                        xtype: 'label',
-                        text: 'Adhoc',
-                        padding: '0 75 0 70'
+                        xtype: 'textfield',
+                        itemId: 'saveSearchText',
+                        padding: '0 13 0 13'
                     },
                     {
                         xtype: 'button',
@@ -108,14 +109,21 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
                 ]
             },
             {
-                xtype:'combobox',
-                fieldLabel: 'Saved Searches',
-                editable:false,
+                xtype: 'container',
+                cls: 'top-border',
                 padding: '0 0 0 0',
-                value: 1,
-                store:[
-                    [1, 'Adhoc'],
-                    [2, 'Adhoc 2']
+                items: [
+                    {
+                        xtype:'combobox',
+                        fieldLabel: 'Saved Searches',
+                        editable:false,
+                        padding: '10 0 0 0',
+                        value: 1,
+                        store:[
+                            [1, 'Adhoc'],
+                            [2, 'Adhoc 2']
+                        ]
+                    }
                 ]
             }
         ];
@@ -124,5 +132,7 @@ Ext.define('Prototypes.view.timeaway.timeawaymanager.managerfilter.ManagerFilter
     },
 
     onSaveButtonAction: function(){
+        var saveSearchText = this.down('textfield[itemId=saveSearchText]');
+        saveSearchText.reset();
     }
 });
