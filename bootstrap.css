@@ -5,18 +5,3 @@
  * in the development directory to load properly (i.e., "dev mode").
  */
 @import 'build/Prototypes/production/resources/Prototypes-all.css';
-
-.cell-yellow {
-    background: yellow;
-    background-color: yellow;
-}
-
-.cell-green {
-    background: green;
-    background-color: green;
-}
-
-.cell-red {
-    background: red;
-    background-color: red;
-}
