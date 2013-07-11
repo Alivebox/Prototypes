@@ -105,8 +105,7 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayController', {
                 'clear' : this.onClear
             },
             'calendarrequest': {
-                'dayMonthSelected': this.onDayMonthSelected,
-                'afterrender': this.onAfterRenderCalendarRequest
+                'dayMonthSelected': this.onDayMonthSelected
             },
             'graphicalgridcontainer': {
                 'backwardclick': this.onBackwardClick,
@@ -251,9 +250,7 @@ Ext.define('Prototypes.controller.timeaway.TimeAwayController', {
      * Red = Unavailable
      * */
     setDoubleDatePickerClass: function(argRequest, argAddGridFlat) {
-        if(argAddGridFlat){
-            this.addRequestToGrid(argRequest);
-        }
+        this.addRequestToGrid(argRequest);
         if(argRequest.data.status === 'Unavailable'){
             this.getCalendar().onSetMonthsDateClass(argRequest.data.date, "cell-red");
             return;
